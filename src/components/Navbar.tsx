@@ -1,8 +1,12 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import Image from "next/image";
 import Link from "next/link";
+import { useState, Fragment } from "react";
+import { Dialog, Transition } from "@headlessui/react";
 
 const Navbar = (props: any) => {
+	const [open, setOpen] = useState(false);
+
 	return (
 		<div className="flex py-3 px-10 md:px-16 w-full bg-white drop-shadow font-NotoSerif fixed z-50">
 			<div className="flex w-full items-center justify-between">
@@ -24,6 +28,7 @@ const Navbar = (props: any) => {
 						alt="hamburger menu"
 						width={20}
 						height={20}
+						onClick={() => setOpen(true)}
 					/>
 				</div>
 				<div className="md:flex hidden md:flex-row md:items-center md:text-xl md:space-x-10">
@@ -95,6 +100,88 @@ const Navbar = (props: any) => {
 					</div>
 				</div>
 			</div>
+			<Transition.Root show={open} as={Fragment}>
+				<Dialog
+					as="div"
+					className="fixed z-50 inset-0 overflow-hidden"
+					onClose={setOpen}
+				>
+					<div className="absolute left-0 inset-0 overflow-hidden">
+						<Transition.Child
+							as={Fragment}
+							enter="ease-in duration-200"
+							enterFrom="opacity-0"
+							enterTo="opacity-100"
+							leave="ease-in-out duration-200"
+							leaveFrom="opacity-100"
+							leaveTo="opacity-0"
+						>
+							<Dialog.Overlay className="absolute inset-0 bg-secondary-color transition-opacity" />
+						</Transition.Child>
+						<div className="fixed inset-y-0 right-0 max-w-full flex">
+							<Transition.Child as={Fragment}>
+								<div className="relative w-screen max-w-md">
+									<Transition.Child as={Fragment}>
+										<div
+											className="absolute top-0 right-0 -ml-8 pt-4
+                    pr-2 flex sm:-ml-10 sm:pr-4"
+										>
+											<button
+												type="button"
+												className="rounded-md text-gray-300 focus:outline-none"
+												onClick={() => setOpen(false)}
+											>
+												<Image
+													src={"/assets/images/Cancel.svg"}
+													alt="cancel icon"
+													width={20}
+													height={20}
+												/>
+											</button>
+										</div>
+									</Transition.Child>
+									<div
+										className="h-full flex flex-col py-6 bg-secondary-color
+                  shadow-xl overflow-y-scroll"
+									>
+										<div className="px-4 sm:px-6">
+											<Dialog.Title
+												className="text-lg font-medium
+                      text-white"
+											></Dialog.Title>
+										</div>
+										<div className="mt-6 relative flex-1 m-auto px-4 sm:px-6">
+											<div
+												className="flex flex-col justify-start items-center text-2xl font-NotoSerif
+                      space-y-4 font-medium mt-20 text-white text-center"
+											>
+												<Link href={"/"}>
+													<a>Home</a>
+												</Link>
+												<Link href={"/about"}>
+													<a>About</a>
+												</Link>
+												<Link href={"/services"}>
+													<a>Services</a>
+												</Link>
+												<Link href={"/portfolio"}>
+													<a>Porfolio</a>
+												</Link>
+												<Link href={"/contact_us"}>
+													<a>Contact Us</a>
+												</Link>
+												<Link href={"/team"}>
+													<a>Team</a>
+												</Link>
+											</div>
+										</div>
+									</div>
+								</div>
+							</Transition.Child>
+						</div>
+					</div>
+				</Dialog>
+			</Transition.Root>
 		</div>
 	);
 };

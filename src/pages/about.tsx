@@ -1,8 +1,9 @@
 import Head from "next/head";
-import Navbar from "../components/Navbar"
+import Image from "next/image";
+import Navbar from "../components/Navbar";
 
 const About = () => {
-  return (
+	return (
 		<div>
 			<Head>
 				<title>Bluechip - About</title>
@@ -10,6 +11,6 @@ const About = () => {
 			<Navbar about={"about"} />
 		</div>
 	);
-}
+};
 
 export default About
