@@ -4,17 +4,29 @@ import Link from "next/link";
 
 const Navbar = (props: any) => {
 	return (
-		<div className="flex py-3 px-16 w-full bg-white drop-shadow font-NotoSerif">
+		<div className="flex py-3 px-10 md:px-16 w-full bg-white drop-shadow font-NotoSerif fixed z-50">
 			<div className="flex w-full items-center justify-between">
 				<div>
+					<Link href={"/"}>
+						<a>
+							<Image
+								src={"/assets/images/Logo.svg"}
+								alt="logo image"
+								width={50}
+								height={50}
+							/>
+						</a>
+					</Link>
+				</div>
+				<div className="md:hidden block">
 					<Image
-						src={"/assets/images/Logo.svg"}
-						alt="logo image"
-						width={50}
-						height={50}
+						src={"/assets/images/Menu.svg"}
+						alt="hamburger menu"
+						width={20}
+						height={20}
 					/>
 				</div>
-				<div className="flex flex-row items-center md:text-xl space-x-10">
+				<div className="md:flex hidden md:flex-row md:items-center md:text-xl md:space-x-10">
 					<div
 						className={`${
 							props.home === "home"
