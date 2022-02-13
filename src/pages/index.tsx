@@ -1,5 +1,6 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
+import Navbar from '../components/Navbar';
 
 const Home: NextPage = () => {
   return (
@@ -7,7 +8,7 @@ const Home: NextPage = () => {
 			<Head>
 				<title>Bluechip - Home</title>
 			</Head>
-			<h1 className="text-3xl font-bold underline">Hello world!</h1>
+			<Navbar home={"home"} />
 		</div>
 	);
 }

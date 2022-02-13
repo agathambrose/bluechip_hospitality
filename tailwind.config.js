@@ -4,7 +4,7 @@ module.exports = {
 	theme: {
 		extend: {
 			fontFamily: {
-				"Noto Serif": ["Noto Sans", "ui-sans-serif", "ui-serif"],
+				"NotoSerif": ["Noto Sans", "ui-sans-serif", "ui-serif"],
 			},
 			colors: {
 				"primary-color": "#1B75BC",
