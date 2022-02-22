@@ -10,7 +10,7 @@ const Portfolio = () => {
 			<Navbar portfolio={"portfolio"} />
 			<div className="font-NotoSerif">
 				<div className="relative">
-					<div className="flex object-fill w-full h-[500px] bg-gray-500 bg-portfolio-hero bg-no-repeat bg-cover justify-start relative"></div>
+					<div className="flex object-fill w-full h-[600px] bg-gray-500 bg-portfolio-hero md:bg-portfolio-hero-md lg:bg-portfolio-hero-lg bg-no-repeat bg-cover justify-start relative"></div>
 					<div className="text-white absolute bottom-20 md:left-24 left-10">
 						<h1 className="font-black md:text-6xl text-4xl w-3/5">
 							Blue Chip Portfolio

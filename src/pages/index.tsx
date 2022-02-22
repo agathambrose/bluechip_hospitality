@@ -12,7 +12,7 @@ const Home: NextPage = () => {
 			<Navbar home={"home"} />
 			<div className='font-NotoSerif'>
 				<div className="relative">
-					<div className="flex object-fill w-full h-[600px] bg-gray-500 bg-home-hero bg-no-repeat bg-cover justify-start relative"></div>
+					<div className="flex object-fill w-full h-[600px] bg-gray-500 bg-home-hero md:bg-home-hero-md lg:bg-home-hero-lg bg-no-repeat bg-cover justify-start relative"></div>
 					<div className="text-white absolute bottom-32 md:left-24 left-5">
 						<h1 className="font-black text-4xl md:text-5xl w-3/5">
 							Blue Chip Hospitality

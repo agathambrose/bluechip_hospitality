@@ -11,7 +11,7 @@ const About = () => {
 			<Navbar about={"about"} />
 			<div className="font-NotoSerif">
 				<div className="relative">
-					<div className="flex object-fill w-full h-[500px] bg-gray-500 bg-about-hero bg-no-repeat bg-cover justify-start relative"></div>
+					<div className="flex object-fill w-full h-[500px] bg-gray-500 bg-about-hero md:bg-about-hero-md lg:bg-about-hero-lg bg-no-repeat bg-cover justify-start relative"></div>
 					<div className="text-white absolute bottom-20 md:left-24 left-10">
 						<h1 className="font-black md:text-6xl text-4xl w-3/5">
 							About Blue Chip
