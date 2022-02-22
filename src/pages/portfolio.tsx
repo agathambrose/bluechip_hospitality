@@ -18,7 +18,7 @@ const Portfolio = () => {
 					</div>
 				</div>
 				<div className="absolute top-0 md:left-20 left-5">
-					<div className="h-[430px] w-[220px] border-l border-b border-white "></div>
+					<div className="h-[550px] w-[220px] border-l border-b border-white "></div>
 				</div>
 			</div>
 		</div>

@@ -10,7 +10,7 @@ const Home: NextPage = () => {
 				<title>Bluechip - Home</title>
 			</Head>
 			<Navbar home={"home"} />
-			<div className='font-NotoSerif'>
+			<div className="font-NotoSerif">
 				<div className="relative">
 					<div className="flex object-fill w-full h-[600px] bg-gray-500 bg-home-hero md:bg-home-hero-md lg:bg-home-hero-lg bg-no-repeat bg-cover justify-start relative"></div>
 					<div className="text-white absolute bottom-32 md:left-24 left-5">
@@ -22,22 +22,18 @@ const Home: NextPage = () => {
 						</h3>
 					</div>
 				</div>
-				<div className="flex w-full bg-gray-200 px-10">
-					<div className="relative my-3">
-						<p>Picture</p>
-					</div>
-					<div>
-						<h2>A Glimpse Inside Blue Chip</h2>
-						<div className="flex items-center space-x-3">
-							<div>
-								<p>Luxury</p>
-							</div>{" "}
-							<div className="h-2 w-2 bg-primary-color rounded-full"></div>{" "}
-							<div>
-								<p>Ambiance</p>
-							</div>{" "}
-							<div className="h-2 w-2 bg-primary-color rounded-full"></div>
+				<div className="flex  w-full bg-gray-200 px-10 relative">
+					<div className="relative">
+						<div className="w-[300px] h-[400px] z-10 ml-4 mt-3 absolute">
+							<Image
+								src={"/assets/images/gardenimage.png"}
+								alt="garden image"
+								width="300px"
+								height="400px"
+								className="rounded-2xl"
+							/>
 						</div>
+						<div className="box-shade h-[200px] w-[200px]  rounded-tl-2xl z-[1] absolute top-0 opacity-70"></div>
 					</div>
 				</div>
 			</div>

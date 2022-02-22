@@ -29,7 +29,7 @@ module.exports = {
 				"contact-hero-lg": "url('/assets/images/contact.svg')",
 				"contact-hero": "url('/assets/images/phonesm.png')",
 				"contact-hero-md": "url('/assets/images/phonemd.png')",
-				"team-hero-lg": "url('/assets/images/team.svg')",
+				"team-hero-lg": "url('/assets/images/teammd.png')",
 				"team-hero-md": "url('/assets/images/teammd.png')",
 				"team-hero": "url('/assets/images/teamsm.png')",
 				"garden-image": "url('/assets/images/gardenimage.png')",

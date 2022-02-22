@@ -8,7 +8,7 @@ const Navbar = (props: any) => {
 	const [open, setOpen] = useState(false);
 
 	return (
-		<div className="flex py-3 px-4 md:px-16 w-full bg-white drop-shadow font-NotoSerif fixed z-50">
+		<div className="flex py-3 px-4 md:px-16 w-full bg-white font-NotoSerif fixed z-50">
 			<div className="flex w-full items-center justify-between">
 				<div>
 					<Link href={"/"}>
