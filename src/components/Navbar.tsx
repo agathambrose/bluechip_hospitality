@@ -94,7 +94,7 @@ const Navbar = (props: any) => {
 								: "text-secondary-color focus:text-secondary-color"
 						}`}
 					>
-						<Link href="/">
+						<Link href="/team">
 							<a>Team</a>
 						</Link>
 					</div>

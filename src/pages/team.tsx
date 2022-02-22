@@ -8,6 +8,16 @@ const Team = () => {
 				<title>Bluechip - Home</title>
 			</Head>
 			<Navbar team={"team"} />
+			<div className="font-NotoSerif">
+				<div className="relative">
+					<div className="flex object-fill w-full h-[500px] bg-gray-500 bg-team-hero md:bg-team-hero-md lg:bg-team-hero bg-no-repeat bg-cover justify-start relative"></div>
+					<div className="text-white absolute bottom-0 left-0 top-0 right-0">
+						<h1 className="font-black md:text-6xl text-4xl w-3/5">
+							Team
+						</h1>
+					</div>
+				</div>
+			</div>
 		</div>
 	);
 };
