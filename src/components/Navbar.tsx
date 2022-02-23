@@ -22,7 +22,7 @@ const Navbar = (props: any) => {
 						</a>
 					</Link>
 				</div>
-				<div className="md:hidden block">
+				<div className="lg:hidden block">
 					<Image
 						src={"/assets/images/Menu.svg"}
 						alt="hamburger menu"
@@ -31,7 +31,7 @@ const Navbar = (props: any) => {
 						onClick={() => setOpen(true)}
 					/>
 				</div>
-				<div className="md:flex hidden md:flex-row md:items-center md:text-xl md:space-x-10">
+				<div className="lg:flex hidden md:flex-row md:items-center md:text-xl md:space-x-10">
 					<div
 						className={`${
 							props.home === "home"
@@ -116,7 +116,7 @@ const Navbar = (props: any) => {
 							leaveFrom="opacity-100"
 							leaveTo="opacity-0"
 						>
-							<Dialog.Overlay className="absolute inset-0 bg-secondary-color transition-opacity" />
+							<Dialog.Overlay className="absolute inset-0 bg-gray-50 opacity-30 transition-opacity" />
 						</Transition.Child>
 						<div className="fixed inset-y-0 right-0 max-w-full flex">
 							<Transition.Child as={Fragment}>
@@ -141,7 +141,7 @@ const Navbar = (props: any) => {
 										</div>
 									</Transition.Child>
 									<div
-										className="h-full flex flex-col py-6 bg-secondary-color
+										className="h-full w-full flex flex-col py-6 bg-secondary-color
                   shadow-xl overflow-y-scroll"
 									>
 										<div className="px-4 sm:px-6">
