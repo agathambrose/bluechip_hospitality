@@ -4,6 +4,8 @@ import Image from "next/image";
 import Navbar from "../components/Navbar";
 import { useEffect } from "react";
 import { useRouter } from "next/router";
+import Link from "next/link";
+import Footer from "../components/Footer";
 
 const Home: NextPage = () => {
 	const router = useRouter();
@@ -185,7 +187,7 @@ const Home: NextPage = () => {
 										</p>
 									</div>
 								</div>
-								<div className="flex flex-col justify-center items-center py-3">
+								<div className="flex flex-col justify-center items-center py-8">
 									<div className="h-1 rounded-full w-[250px] bg-primary-color"></div>
 									<div className="flex flex-col py-5 justify-center items-center">
 										<h3 className="text-4xl font-black text-secondary-color">
@@ -250,8 +252,9 @@ const Home: NextPage = () => {
 											</div>
 										</div>
 									</div>
-									<div className="rounded-full h-1 w-[400px] bg-primary-color my-4"></div>
+									<div className="rounded-full h-1 w-[400px] bg-primary-color my-8"></div>
 								</div>
+								<Footer/>
 							</div>
 						</div>
 					</div>
