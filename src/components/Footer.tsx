@@ -20,7 +20,7 @@ const Footer = () => {
 					<h4 className="md:text-4xl text-3xl font-black">
 						Hospitality Limited
 					</h4>
-					<p className="lg:w-3/5 md:w-11/12 text-base md:text-lg text-gray-400">
+					<p className="md:w-11/12 text-base md:text-lg text-gray-400">
 						House Number F330/2, Troas Street, Near Simbins Furniture, Osu,
 						Accra, Ghana.
 					</p>

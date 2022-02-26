@@ -39,7 +39,7 @@ const Home: NextPage = () => {
 					<div className="relative">
 						<div className="w-full from-transparent via-white to-white absolute -top-20">
 							<div className="flex-col relative hidden md:flex lg:flex">
-								<div className="md:flex w-full justify-center pt-4 hidden">
+								<div className="here md:flex w-full justify-center pt-4 hidden">
 									<div className="here relative w-full flex lg:justify-center h-[400px]">
 										<div className="w-[300px] h-[300px] z-10 top-3 md:absolute md:right-6 md:block lg:hidden">
 											<Image
@@ -101,8 +101,8 @@ const Home: NextPage = () => {
 										</div>
 									</div>
 								</div>
-								<div className="relative min-h-[500px]">
-									<div className="hidden absolute -top-10 lg:left-60 md:left-20 md:block text-gray-600 lg:w-2/5 md:w-2/5">
+								<div className="relative min-h-[500px] w-full bg-slate-500">
+									<div className="hidden absolute -top-10 lg:left-36 md:left-20 md:block text-gray-600 lg:w-2/5 md:w-2/5">
 										<h3 className="text-4xl font-black text-secondary-color">
 											Our Vision
 										</h3>
@@ -325,13 +325,13 @@ const Home: NextPage = () => {
 								</p>
 							</div>
 							<div className="h-[300px]">
-								<div className="flex justify-end absolute right-0">
-									<div className="relative h-[250px] w-[200px]">
-										<div className=" z-10 absolute top-2 -left-0">
+								<div className="flex justify-end absolute right-3">
+									<div className="relative h-[250px] w-[210px]">
+										<div className="z-10 absolute top-2 -left-0">
 											<Image
 												src={"/assets/images/darknight.png"}
 												alt="dark night image"
-												width="200px"
+												width="210px"
 												height="220px"
 												className="rounded-2xl"
 											/>
@@ -339,13 +339,13 @@ const Home: NextPage = () => {
 										<div className="h-[80px] w-[100px] rounded-tl-2xl z-[1] absolute top-0 -left-2  opacity-30 bg-gradient-to-tr from-primary-color via-primary-color to-white shadow-2xl shadow-white"></div>
 									</div>
 								</div>
-								<div className="flex justify-start absolute left-0 mt-20">
-									<div className="relative h-[250px] w-[200px]">
-										<div className=" z-10 absolute top-2 -left-0">
+								<div className="flex justify-start absolute left-5 mt-20">
+									<div className="relative h-[250px] w-[210px]">
+										<div className="z-10 absolute top-2 -left-0">
 											<Image
 												src={"/assets/images/barstools.png"}
 												alt="barstools image"
-												width="200px"
+												width="210px"
 												height="220px"
 												className="rounded-2xl"
 											/>
@@ -430,7 +430,9 @@ const Home: NextPage = () => {
 								<div className="rounded-full h-1 w-[200px] bg-primary-color"></div>
 							</div>
 						</div>
-							<Footer/>
+						<div className="md:hidden block">
+							<Footer />
+						</div>
 					</div>
 				</div>
 			</div>
