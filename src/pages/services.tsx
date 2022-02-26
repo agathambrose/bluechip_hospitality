@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 
 const Services = () => {
@@ -10,17 +11,380 @@ const Services = () => {
 			</Head>
 			<Navbar services={"services"} />
 			<div className="font-NotoSerif">
-				<div className="relative">
-					<div className="flex object-fill w-full h-[500px] bg-gray-500 bg-services-hero md:bg-services-hero-md lg:bg-services-hero-lg bg-no-repeat bg-cover justify-start relative"></div>
-					<div className="text-white absolute bottom-20 md:left-24 left-10">
-						<h1 className="font-black md:text-6xl text-4xl w-3/5">
-							Blue Chip Services
-						</h1>
+				<div>
+					<div className="relative">
+						<div className="flex object-fill w-full h-[500px] bg-gray-500 bg-services-hero md:bg-services-hero-md lg:bg-services-hero-lg bg-no-repeat bg-cover justify-start relative"></div>
+						<div className="text-white absolute bottom-20 md:left-24 left-10">
+							<h1 className="font-black md:text-6xl text-4xl w-3/5">
+								Blue Chip Services
+							</h1>
+						</div>
+					</div>
+					<div className="absolute top-0 md:left-20 left-5">
+						<div className="h-[430px] w-[220px] border-l border-b border-white "></div>
 					</div>
 				</div>
-				<div className="absolute top-0 md:left-20 left-5">
-					<div className="h-[430px] w-[220px] border-l border-b border-white "></div>
+				<div className="px-4 pt-4">
+					<div className="md:hidden">
+						<div className="relative my-8 px-5 md:px-0 lg:my-0 w-full flex justify-center h-[330px]">
+							<div className="h-[300px] w-[500px] md:block hidden z-10 top-3 absolute">
+								<Image
+									src={"/assets/images/pyramid.png"}
+									alt="pyramid image"
+									width="500px"
+									height="300px"
+									className="rounded-2xl absolute z-10"
+								/>
+								<div className="h-[100px] w-[150px] rounded-tl-2xl z-[1] absolute -top-2 -left-3 opacity-30 bg-gradient-to-tr from-primary-color via-primary-color to-white shadow-2xl shadow-white"></div>
+							</div>
+							<div className="h-[600px] block md:hidden z-10 top-3 absolute">
+								<Image
+									src={"/assets/images/pyramid.svg"}
+									alt="pyramid image"
+									width="600px"
+									height="650px"
+									className="rounded-2xl absolute z-10"
+								/>
+								<div className="h-[100px] w-[150px] rounded-tl-2xl z-[1] absolute top-1 -left-2 opacity-30 bg-gradient-to-tr from-primary-color via-primary-color to-white shadow-2xl shadow-white"></div>
+							</div>
+						</div>
+						<div className="flex flex-col items-center space-y-2 justify-center">
+							<h3 className="text-3xl md:text-4xl font-black text-secondary-color">
+								Conceptualization
+							</h3>
+							<p className="text-gray-600 text-center text-lg">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tortor
+								neque, volutpat morbi quam. Vulputate augue tempus vehicula
+								euismod penatibus velit, eget. Egestas diam gravida tempus,
+								magnis eget turpis orci tortor nascetur. Augue eu eget
+								suspendisse consequat quis at. Arcu sagittis fames arcu, odio.
+								Neque vel diam aliquam, consequat, sed. Sed proin eu arcu orci
+								ultricies nunc. Ut sit purus suspendisse nibh purus placerat
+								vestibulum. Cras donec fermentum porttitor quis lectus quam.
+								Turpis pretium mattis purus a tortor. Cras.
+							</p>
+						</div>
+					</div>
+					<div className="md:flex w-full justify-center items-center lg:px-10 md:px-3 pt-4 hidden">
+						<div className="relative flex lg:justify-center mr-8">
+							<div className="relative my-8 lg:my-0 lg:w-[400px] md:w-[350px] flex justify-center lg:h-[400px] md:h-[350px]">
+								<div className="lg:h-[400px] lg:w-[400px] md:w-[350px] md:h[380px] z-10 top-3 absolute">
+									<Image
+										src={"/assets/images/pyramid.svg"}
+										alt="pyramid image"
+										width="400px"
+										height="380px"
+										className="rounded-2xl absolute z-10"
+									/>
+									<div className="h-[100px] w-[150px] rounded-tl-2xl z-[1] absolute -top-2 -left-3 md:left-0 opacity-30 bg-gradient-to-tr from-primary-color via-primary-color to-white shadow-2xl shadow-white"></div>
+								</div>
+							</div>
+						</div>
+						<div className="flex flex-col space-y-2 justify-start lg:w-2/6">
+							<h3 className="text-3xl md:text-4xl font-black text-secondary-color">
+								Conceptualization
+							</h3>
+							<p className="text-gray-600 text-lg">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tortor
+								neque, volutpat morbi quam. Vulputate augue tempus vehicula
+								euismod penatibus velit, eget. Egestas diam gravida tempus,
+								magnis eget turpis orci tortor nascetur. Augue eu eget
+								suspendisse consequat quis at. Arcu sagittis fames arcu, odio.
+								Neque vel diam aliquam, consequat, sed. Sed proin eu arcu orci
+								ultricies nunc. Ut sit purus suspendisse nibh purus placerat
+								vestibulum. Cras donec fermentum porttitor quis lectus quam.
+								Turpis pretium mattis purus a tortor. Cras.
+							</p>
+						</div>
+					</div>
 				</div>
+				<div className="px-4 md:hidden block">
+					<div className="md:hidden">
+						<div className="relative my-8 px-5 md:px-0 lg:my-0 w-full flex justify-center h-[290px]">
+							<div className="h-[300px] w-[500px] md:block hidden z-10 top-3 absolute">
+								<Image
+									src={"/assets/images/pyramid.png"}
+									alt="pyramid image"
+									width="500px"
+									height="300px"
+									className="rounded-2xl absolute z-10"
+								/>
+								<div className="h-[100px] w-[150px] rounded-tl-2xl z-[1] absolute -top-2 -left-3 opacity-30 bg-gradient-to-tr from-primary-color via-primary-color to-white shadow-2xl shadow-white"></div>
+							</div>
+							<div className="h-[600px] block md:hidden z-10 top-3 absolute">
+								<Image
+									src={"/assets/images/skyscrapers.svg"}
+									alt="skyscrapers image"
+									width="600px"
+									height="550px"
+									className="rounded-2xl absolute z-10"
+								/>
+								<div className="h-[100px] w-[150px] rounded-tl-2xl z-[1] absolute -top-2 -left-2 opacity-30 bg-gradient-to-tr from-primary-color via-primary-color to-white shadow-2xl shadow-white"></div>
+							</div>
+						</div>
+						<div className="flex flex-col items-center space-y-2 justify-center">
+							<h3 className="text-3xl md:text-4xl font-black text-secondary-color">
+								Construction
+							</h3>
+							<p className="text-gray-600 text-center text-lg">
+								We have a team of builders and interior decorators to help make
+								your setup more fluid. Building a restaurant and bar should be
+								handled by a team that understand hospitality spatial design.
+								How the space is designed to make operations efficient and yet
+								visually appealing to guests is very crucial in modern
+								hospitality. This type of design and construction is detailed
+								with measurements and precision which should be handled but
+								hospitality experts. Blue Chip Hospitality can help meet your
+								construction and interior decor needs.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div className="px-4 md:block hidden">
+					<div className="md:flex w-full justify-center items-center lg:px-10 md:px-3 pt-4 hidden">
+						<div className="flex flex-col mr-8 space-y-2 justify-start lg:w-2/6">
+							<h3 className="text-3xl md:text-4xl font-black text-secondary-color">
+								Construction
+							</h3>
+							<p className="text-gray-600 text-lg">
+								We have a team of builders and interior decorators to help make
+								your setup more fluid. Building a restaurant and bar should be
+								handled by a team that understand hospitality spatial design.
+								How the space is designed to make operations efficient and yet
+								visually appealing to guests is very crucial in modern
+								hospitality. This type of design and construction is detailed
+								with measurements and precision which should be handled but
+								hospitality experts. Blue Chip Hospitality can help meet your
+								construction and interior decor needs.
+							</p>
+						</div>
+						<div className="relative flex lg:justify-center">
+							<div className="relative my-8 lg:my-0 lg:w-[400px] md:w-[350px] flex justify-center lg:h-[400px] md:h-[350px]">
+								<div className="lg:h-[400px] lg:w-[400px] md:w-[350px] md:h[380px] z-10 top-3 absolute">
+									<Image
+										src={"/assets/images/skyscrapers.svg"}
+										alt="skyscrapers image"
+										width="400px"
+										height="380px"
+										className="rounded-2xl absolute z-10"
+									/>
+									<div className="h-[100px] w-[150px] rounded-tl-3xl z-[1] absolute -top-0 md:-left-1 lg:-left-2 opacity-30 bg-gradient-to-tr from-primary-color via-primary-color to-white shadow-2xl shadow-white"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div className="px-4 py-2 md:py-4 my-8 bg-blue-700">
+					<div className="md:hidden mobile">
+						<div className="relative px-5 md:px-0 lg:my-0 w-full flex justify-center h-[280px]">
+							<div className="h-[400px] w-[500px] md:block hidden z-10 top-3 absolute">
+								<Image
+									src={"/assets/images/pyramid.png"}
+									alt="pyramid image"
+									width="500px"
+									height="400px"
+									className="rounded-2xl absolute z-10"
+								/>
+								<div className="h-[100px] w-[150px] rounded-tl-2xl z-[1] absolute -top-2 -left-3 opacity-30 bg-gradient-to-tr from-primary-color via-primary-color to-white shadow-2xl shadow-white"></div>
+							</div>
+							<div className="h-[520px] block md:hidden z-10 top-3 absolute">
+								<Image
+									src={"/assets/images/foodplate.svg"}
+									alt="food plate image"
+									width="600px"
+									height="520px"
+									className="rounded-2xl absolute z-10"
+								/>
+								<div className="h-[100px] w-[150px] rounded-tl-2xl z-[1] absolute top-0 -left-2 bg-gradient-to-tr from-primary-color via-primary-color to-white"></div>
+							</div>
+						</div>
+						<div className="flex flex-col items-center space-y-2 justify-center">
+							<h3 className="text-3xl md:text-4xl font-black text-white">
+								Menu Development
+							</h3>
+							<p className="text-white text-center text-lg">
+								Menu development is the key to the success for your restaurant
+								and bar. This is the main product for revenue generation. Food
+								and drinks have to be developed by professionals with recipes
+								documents for restaurant owners. The type of food and drinks to
+								be served influences a number of things for the restaurant. This
+								includes, the type of bar station, glassware, bar equipment,
+								plates for restaurant, kitchen equipment (heavy and small
+								equipment) and kitchen setup.
+							</p>
+						</div>
+					</div>
+					<div className="md:flex w-full justify-center items-center lg:px-10 md:px-3 pt-4 hidden tablet-desktop">
+						<div className="relative flex lg:justify-center mr-8">
+							<div className="relative my-8 lg:my-0 lg:w-[400px] md:w-[350px] flex justify-center lg:h-[400px] md:h-[350px]">
+								<div className="lg:h-[400px] lg:w-[400px] md:w-[350px] md:h[380px] z-10 top-3 absolute">
+									<Image
+										src={"/assets/images/foodplate.svg"}
+										alt="food plate image"
+										width="400px"
+										height="380px"
+										className="rounded-2xl absolute z-10"
+									/>
+									<div className="h-[100px] w-[150px] rounded-tl-2xl z-[1] absolute top-3 md:top-4 md:-left-2 bg-gradient-to-tr from-primary-color via-primary-color to-white shadow-white"></div>
+								</div>
+							</div>
+						</div>
+						<div className="flex flex-col space-y-2 justify-start lg:w-2/6">
+							<h3 className="text-3xl md:text-4xl font-black text-white">
+								Menu Development
+							</h3>
+							<p className="text-white text-lg">
+								Menu development is the key to the success for your restaurant
+								and bar. This is the main product for revenue generation. Food
+								and drinks have to be developed by professionals with recipes
+								documents for restaurant owners. The type of food and drinks to
+								be served influences a number of things for the restaurant. This
+								includes, the type of bar station, glassware, bar equipment,
+								plates for restaurant, kitchen equipment (heavy and small
+								equipment) and kitchen setup.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div className="px-4 md:hidden block">
+					<div className="md:hidden">
+						<div className="relative my-8 px-5 md:px-0 lg:my-0 w-full flex justify-center h-[290px]">
+							<div className="h-[300px] w-[500px] md:block hidden z-10 top-3 absolute">
+								<Image
+									src={"/assets/images/pyramid.png"}
+									alt="pyramid image"
+									width="500px"
+									height="300px"
+									className="rounded-2xl absolute z-10"
+								/>
+								<div className="h-[100px] w-[150px] rounded-tl-2xl z-[1] absolute -top-2 -left-3 opacity-30 bg-gradient-to-tr from-primary-color via-primary-color to-white shadow-2xl shadow-white"></div>
+							</div>
+							<div className="h-[600px] block md:hidden z-10 top-3 absolute">
+								<Image
+									src={"/assets/images/handshake.svg"}
+									alt="handshake image"
+									width="600px"
+									height="650px"
+									className="rounded-2xl absolute z-10"
+								/>
+								<div className="h-[100px] w-[150px] rounded-tl-2xl z-[1] absolute top-4 -left-2 opacity-30 bg-gradient-to-tr from-primary-color via-primary-color to-white shadow-2xl shadow-white"></div>
+							</div>
+						</div>
+						<div className="flex flex-col items-center space-y-2 justify-center">
+							<h3 className="text-3xl md:text-4xl font-black text-secondary-color">
+								Hiring and Training
+							</h3>
+							<p className="text-gray-600 text-center text-lg">
+								Blue Chip Hospitality has an experienced team that develops
+								hospitality concepts with emphasis on bar and restaurant. With
+								our service on developing concepts, we engage our clients to
+								understand their idea of business direction, market target,
+								experience to be created visually, audibly, emotionally and
+								tangibly. Through this understanding we can help bring concept
+								to life engaging all the five senses and develop business
+								strategies .
+							</p>
+						</div>
+					</div>
+				</div>
+				<div className="px-4 md:block hidden">
+					<div className="md:flex w-full justify-center items-center lg:px-10 md:px-3 pt-4 hidden">
+						<div className="flex flex-col mr-8 space-y-2 justify-start lg:w-2/6">
+							<h3 className="text-3xl md:text-4xl font-black text-secondary-color">
+								Hiring and Training
+							</h3>
+							<p className="text-gray-600 text-lg">
+								Blue Chip Hospitality has an experienced team that develops
+								hospitality concepts with emphasis on bar and restaurant. With
+								our service on developing concepts, we engage our clients to
+								understand their idea of business direction, market target,
+								experience to be created visually, audibly, emotionally and
+								tangibly. Through this understanding we can help bring concept
+								to life engaging all the five senses and develop business
+								strategies .
+							</p>
+						</div>
+						<div className="relative flex lg:justify-center">
+							<div className="relative my-8 lg:my-0 lg:w-[400px] md:w-[350px] flex justify-center lg:h-[400px] md:h-[350px]">
+								<div className="lg:h-[400px] lg:w-[400px] md:w-[350px] md:h[380px] z-10 top-3 absolute">
+									<Image
+										src={"/assets/images/handshake.svg"}
+										alt="handshake image"
+										width="400px"
+										height="380px"
+										className="rounded-2xl absolute z-10"
+									/>
+									<div className="h-[100px] w-[150px] rounded-tl-3xl z-[1] absolute -top-0 md:-left-1 lg:-left-2 opacity-30 bg-gradient-to-tr from-primary-color via-primary-color to-white shadow-2xl shadow-white"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div className="px-4 py-4">
+					<div className="md:hidden">
+						<div className="relative my-8 px-5 md:px-0 lg:my-0 w-full flex justify-center h-[280px]">
+							<div className="h-[600px] block md:hidden z-10 top-3 absolute">
+								<Image
+									src={"/assets/images/laptop.svg"}
+									alt="laptop image"
+									width="600px"
+									height="550px"
+									className="rounded-2xl absolute z-10"
+								/>
+								<div className="h-[100px] w-[150px] rounded-tl-2xl z-[1] absolute -top-2 -left-2 opacity-30 bg-gradient-to-tr from-primary-color via-primary-color to-white shadow-2xl shadow-white"></div>
+							</div>
+						</div>
+						<div className="flex flex-col items-center space-y-2 justify-center">
+							<h3 className="text-3xl md:text-4xl font-black text-secondary-color">
+								Operations
+							</h3>
+							<p className="text-gray-600 text-center text-lg">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tortor
+								neque, volutpat morbi quam. Vulputate augue tempus vehicula
+								euismod penatibus velit, eget. Egestas diam gravida tempus,
+								magnis eget turpis orci tortor nascetur. Augue eu eget
+								suspendisse consequat quis at. Arcu sagittis fames arcu, odio.
+								Neque vel diam aliquam, consequat, sed. Sed proin eu arcu orci
+								ultricies nunc. Ut sit purus suspendisse nibh purus placerat
+								vestibulum. Cras donec fermentum porttitor quis lectus quam.
+								Turpis pretium mattis purus a tortor. Cras.
+							</p>
+						</div>
+					</div>
+					<div className="md:flex w-full justify-center items-center lg:px-10 md:px-3 pt-4 hidden">
+						<div className="relative flex lg:justify-center mr-8">
+							<div className="relative my-8 lg:my-0 lg:w-[400px] md:w-[350px] flex justify-center lg:h-[400px] md:h-[350px]">
+								<div className="lg:h-[400px] lg:w-[400px] md:w-[350px] md:h[380px] z-10 top-3 absolute">
+									<Image
+										src={"/assets/images/laptop.svg"}
+										alt="laptop image"
+										width="400px"
+										height="380px"
+										className="rounded-2xl absolute z-10"
+									/>
+									<div className="h-[100px] w-[150px] rounded-tl-2xl z-[1] absolute -top-0 -left-3 md:-left-1 lg:left-0 opacity-30 bg-gradient-to-tr from-primary-color via-primary-color to-white shadow-2xl shadow-white"></div>
+								</div>
+							</div>
+						</div>
+						<div className="flex flex-col space-y-2 justify-start lg:w-2/6">
+							<h3 className="text-3xl md:text-4xl font-black text-secondary-color">
+								Operations
+							</h3>
+							<p className="text-gray-600 text-lg">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tortor
+								neque, volutpat morbi quam. Vulputate augue tempus vehicula
+								euismod penatibus velit, eget. Egestas diam gravida tempus,
+								magnis eget turpis orci tortor nascetur. Augue eu eget
+								suspendisse consequat quis at. Arcu sagittis fames arcu, odio.
+								Neque vel diam aliquam, consequat, sed. Sed proin eu arcu orci
+								ultricies nunc. Ut sit purus suspendisse nibh purus placerat
+								vestibulum. Cras donec fermentum porttitor quis lectus quam.
+								Turpis pretium mattis purus a tortor. Cras.
+							</p>
+						</div>
+					</div>
+				</div>
+				<Footer/>
 			</div>
 		</div>
 	);

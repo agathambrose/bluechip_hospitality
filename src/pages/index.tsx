@@ -40,7 +40,7 @@ const Home: NextPage = () => {
 						<div className="w-full from-transparent via-white to-white absolute -top-20">
 							<div className="flex-col relative hidden md:flex lg:flex">
 								<div className="here md:flex w-full justify-center pt-4 hidden">
-									<div className="here relative w-full flex lg:justify-center h-[400px]">
+									<div className="relative w-full flex lg:justify-center h-[400px]">
 										<div className="w-[300px] h-[300px] z-10 top-3 md:absolute md:right-6 md:block lg:hidden">
 											<Image
 												src={"/assets/images/gardenimage.png"}
