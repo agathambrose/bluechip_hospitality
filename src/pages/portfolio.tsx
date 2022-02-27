@@ -319,7 +319,7 @@ const Portfolio = () => {
 											height="380px"
 											className="rounded-2xl absolute z-10"
 										/>
-										<div className="h-[100px] w-[150px] rounded-tl-3xl z-[1] absolute -top-0 md:-left-1 lg:-left-2 opacity-30 bg-gradient-to-tr from-primary-color via-primary-color to-white shadow-2xl shadow-white"></div>
+										<div className="h-[100px] w-[150px] rounded-tl-3xl z-[1] absolute -top-2 md:-left-1 lg:-left-2 opacity-30 bg-gradient-to-tr from-primary-color via-primary-color to-white shadow-2xl shadow-white"></div>
 									</div>
 								</div>
 							</div>
