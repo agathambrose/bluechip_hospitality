@@ -209,51 +209,51 @@ const Home: NextPage = () => {
 								</div>
 								<div className="flex flex-col justify-center items-center">
 									<div className="flex justify-center items-center py-5">
-										<div className="w-[150px] rounded-md flex relative mr-4">
+										<div className="w-[150px] lg:w-[200px] xl:w-[250px] xl:h-[300px] lg:h-[250px] rounded-md flex relative mr-4">
 											<Image
 												src={"/assets/images/bloombar.png"}
 												alt="bloombar image"
-												width={150}
-												height={200}
+												width={250}
+												height={300}
 												className="rounded-2xl"
 											/>
-											<div className="absolute bottom-2 md:right-[2.5rem] lg:right-9 text-lg text-white font-semibold">
+											<div className="absolute bottom-2 md:right-[2.5rem] lg:right-14 xl:right-9 text-lg text-white font-semibold">
 												<p>Bloom bar</p>
 											</div>
 										</div>
-										<div className="w-[150px] rounded-md flex relative mr-5">
+										<div className="w-[150px] lg:w-[200px] xl:w-[250px] xl:h-[300px] lg:h-[250px] rounded-md flex relative mr-4">
 											<Image
 												src={"/assets/images/eastend.png"}
 												alt="eastend image"
-												width={150}
-												height={200}
+												width={250}
+												height={300}
 												className="rounded-2xl"
 											/>
-											<div className="absolute bottom-2 md:right-[2.6rem] lg:right-10 text-white text-lg font-semibold">
+											<div className="absolute bottom-2 md:right-[2.6rem] lg:right-16 xl:right-9 text-white text-lg font-semibold">
 												<p>East End</p>
 											</div>
 										</div>
-										<div className="w-[150px] rounded-md flex relative mr-5">
+										<div className="w-[150px] lg:w-[200px] xl:w-[250px] xl:h-[300px] lg:h-[250px] rounded-md flex relative mr-4">
 											<Image
 												src={"/assets/images/avenue.png"}
 												alt="avenue image"
-												width={150}
-												height={200}
+												width={250}
+												height={300}
 												className="rounded-2xl"
 											/>
-											<div className="absolute bottom-2 md:right-12 lg:right-[2.9rem] text-lg text-white font-semibold">
+											<div className="absolute bottom-2 md:right-12 lg:right-[4.5rem] xl:right-[2.9rem] text-lg text-white font-semibold">
 												<p>Avenue</p>
 											</div>
 										</div>
-										<div className="w-[150px] rounded-md flex relative">
+										<div className="w-[150px] lg:w-[200px] xl:w-[250px] xl:h-[300px] lg:h-[250px] rounded-md flex relative">
 											<Image
 												src={"/assets/images/scorch.png"}
 												alt="scorch image"
-												width={150}
-												height={200}
+												width={250}
+												height={300}
 												className="rounded-2xl"
 											/>
-											<div className="absolute bottom-2 md:right-12 text-lg lg:right-[2.9rem] text-white font-semibold">
+											<div className="absolute bottom-2 md:right-12 text-lg lg:right-[4.5rem] xl:right-[2.9rem] text-white font-semibold">
 												<p>Scorch</p>
 											</div>
 										</div>

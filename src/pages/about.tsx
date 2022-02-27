@@ -33,7 +33,7 @@ const About = () => {
 						</p>
 					</div>
 				</div>
-				<div className="px-4">
+				<div className="px-4 font-NotoSerif">
 					<div className="lg:hidden">
 						<div className="relative my-8 px-5 md:px-0 lg:my-0 w-full flex justify-center h-[330px]">
 							<div className="h-[300px] md:block hidden z-10 top-3 absolute">
@@ -58,7 +58,7 @@ const About = () => {
 							</div>
 						</div>
 						<div className="flex justify-center">
-							<p className="text-gray-600 text-center md:w-10/12 text-lg">
+							<p className="text-gray-600 text-center md:w-10/12 md:text-lg text-sm mt-6 md:mt-0">
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tortor
 								neque, volutpat morbi quam. Vulputate augue tempus vehicula
 								euismod penatibus velit, eget. Egestas diam gravida tempus,
@@ -101,11 +101,11 @@ const About = () => {
 						</div>
 					</div>
 					<div className="flex flex-col relative justify-center items-center py-8">
-						<div className="flex flex-col py-5 justify-center items-center">
-							<h3 className="text-5xl font-black text-secondary-color">
+						<div className="flex flex-col p4-5 justify-center items-center">
+							<h3 className="text-3xl md:text-4xl font-black text-secondary-color">
 								Our Story
 							</h3>
-							<p className="text-gray-600 text-center mt-4 lg:w-4/5 md:w-10/12 text-lg">
+							<p className="text-gray-600 text-center mt-4 lg:w-4/5 md:w-10/12 md:text-lg text-sm">
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 								Bibendum amet, hendrerit in sollicitudin faucibus aenean
 								volutpat in vel. Pretium neque cursus scelerisque aliquet

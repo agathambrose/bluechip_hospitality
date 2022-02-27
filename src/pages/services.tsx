@@ -27,6 +27,7 @@ const Services = () => {
 				<div className="px-4 pt-4">
 					<div className="md:hidden">
 						<div className="relative my-8 px-5 md:px-0 lg:my-0 w-full flex justify-center h-[330px]">
+							<div className="md:hidden h-[1793px] w-[1px] bg-gray-400 top-24 absolute left-4"></div>
 							<div className="h-[300px] w-[500px] md:block hidden z-10 top-3 absolute">
 								<Image
 									src={"/assets/images/pyramid.png"}
@@ -52,7 +53,7 @@ const Services = () => {
 							<h3 className="text-3xl md:text-4xl font-black text-secondary-color">
 								Conceptualization
 							</h3>
-							<p className="text-gray-600 text-center text-lg">
+							<p className="text-gray-600 w-4/5 md:text-lg text-base">
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tortor
 								neque, volutpat morbi quam. Vulputate augue tempus vehicula
 								euismod penatibus velit, eget. Egestas diam gravida tempus,
@@ -124,10 +125,10 @@ const Services = () => {
 							</div>
 						</div>
 						<div className="flex flex-col items-center space-y-2 justify-center">
-							<h3 className="text-3xl md:text-4xl font-black text-secondary-color">
+							<h3 className="text-3xl md:text-4xl font-black text-secondary-color mt-3">
 								Construction
 							</h3>
-							<p className="text-gray-600 text-center text-lg">
+							<p className="text-gray-600 w-5/6 md:text-lg text-base">
 								We have a team of builders and interior decorators to help make
 								your setup more fluid. Building a restaurant and bar should be
 								handled by a team that understand hospitality spatial design.
@@ -200,11 +201,11 @@ const Services = () => {
 								<div className="h-[100px] w-[150px] rounded-tl-2xl z-[1] absolute top-0 -left-2 bg-gradient-to-tr from-primary-color via-primary-color to-white"></div>
 							</div>
 						</div>
-						<div className="flex flex-col items-center space-y-2 justify-center">
+						<div className="flex flex-col items-center space-y-2 justify-center mt-6">
 							<h3 className="text-3xl md:text-4xl font-black text-white">
 								Menu Development
 							</h3>
-							<p className="text-white text-center text-lg">
+							<p className="text-white w-5/6 md:text-lg text-base">
 								Menu development is the key to the success for your restaurant
 								and bar. This is the main product for revenue generation. Food
 								and drinks have to be developed by professionals with recipes
@@ -249,7 +250,8 @@ const Services = () => {
 					</div>
 				</div>
 				<div className="px-4 md:hidden block">
-					<div className="md:hidden">
+					<div className="md:hidden relative">
+						<div className="md:hidden h-[1680px] w-[1px] bg-gray-400 top-24 absolute left-4"></div>
 						<div className="relative my-8 px-5 md:px-0 lg:my-0 w-full flex justify-center h-[290px]">
 							<div className="h-[300px] w-[500px] md:block hidden z-10 top-3 absolute">
 								<Image
@@ -273,10 +275,10 @@ const Services = () => {
 							</div>
 						</div>
 						<div className="flex flex-col items-center space-y-2 justify-center">
-							<h3 className="text-3xl md:text-4xl font-black text-secondary-color">
+							<h3 className="text-3xl md:text-4xl font-black text-secondary-color mt-8">
 								Hiring and Training
 							</h3>
-							<p className="text-gray-600 text-center text-lg">
+							<p className="text-gray-600 w-5/6 md:text-lg text-base">
 								Blue Chip Hospitality has an experienced team that develops
 								hospitality concepts with emphasis on bar and restaurant. With
 								our service on developing concepts, we engage our clients to
@@ -337,10 +339,10 @@ const Services = () => {
 							</div>
 						</div>
 						<div className="flex flex-col items-center space-y-2 justify-center">
-							<h3 className="text-3xl md:text-4xl font-black text-secondary-color">
+							<h3 className="text-3xl mt-4 md:text-4xl font-black text-secondary-color">
 								Operations
 							</h3>
-							<p className="text-gray-600 text-center text-lg">
+							<p className="text-gray-600 w-5/6 md:text-lg text-base">
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tortor
 								neque, volutpat morbi quam. Vulputate augue tempus vehicula
 								euismod penatibus velit, eget. Egestas diam gravida tempus,

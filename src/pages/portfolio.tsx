@@ -32,18 +32,18 @@ const Portfolio = () => {
 									<Image
 										src={"/assets/images/cocktail.png"}
 										alt="cocktail image"
-										width="250px"
-										height="250px"
+										width="320px"
+										height="290px"
 										className="rounded-2xl absolute z-10"
 									/>
 									<div className="h-[100px] w-[150px] rounded-tl-2xl z-[1] absolute -top-2 -left-2 opacity-30 bg-gradient-to-tr from-primary-color via-primary-color to-white shadow-2xl shadow-white"></div>
 								</div>
 							</div>
-							<div className="flex flex-col items-center space-y-2 justify-center">
-								<h3 className="text-3xl md:text-4xl font-black text-secondary-color">
+							<div className="flex flex-col space-y-2 justify-center px-4">
+								<h3 className="text-3xl md:text-4xl text-left font-black text-secondary-color mt-10">
 									Bloom Bar
 								</h3>
-								<p className="text-gray-600 text-center text-lg">
+								<p className="text-gray-600 md:text-lg text-base w-11/12">
 									Bloom Bar Limited, incorporated in November 2016, is currently
 									Blue Chip’s most established and successful brand since it
 									started operations in 2017. Bloom Bar is an affordable luxury
@@ -61,7 +61,7 @@ const Portfolio = () => {
 								</p>
 							</div>
 						</div>
-						<div className="md:flex w-full justify-center items-start md:px-2 pt-4 hidden">
+						<div className="md:flex w-full justify-center items-center md:px-2 pt-4 hidden">
 							<div className="relative flex lg:justify-center mr-8">
 								<div className="relative my-8 lg:my-0 lg:w-[400px] md:w-[350px] flex justify-center lg:h-[350px] md:h-[350px]">
 									<div className="lg:h-[320px] lg:w-[400px] md:w-[300px] md:h[360px] z-10 top-3 absolute">
@@ -107,18 +107,18 @@ const Portfolio = () => {
 									<Image
 										src={"/assets/images/foodbowl.png"}
 										alt="foodbowl image"
-										width="600px"
-										height="550px"
+										width="310px"
+										height="290px"
 										className="rounded-2xl absolute z-10"
 									/>
 									<div className="h-[100px] w-[150px] rounded-tl-2xl z-[1] absolute -top-2 -left-2 opacity-30 bg-gradient-to-tr from-primary-color via-primary-color to-white shadow-2xl shadow-white"></div>
 								</div>
 							</div>
-							<div className="flex flex-col items-center space-y-2 justify-center">
+							<div className="flex flex-col space-y-2 justify-center px-4">
 								<h3 className="text-3xl md:text-4xl font-black text-secondary-color">
 									East End
 								</h3>
-								<p className="text-gray-600 text-center text-lg">
+								<p className="text-gray-600 md:text-lg text-base w-11/12">
 									East End Hospitality Limited, incorporated in September 2020,
 									is a bistro restaurant in Ghana and the second establishment
 									of Blue Chip. East End bistro pairs cuisine and a unique
@@ -183,18 +183,18 @@ const Portfolio = () => {
 									<Image
 										src={"/assets/images/blueavenue.png"}
 										alt="blueavenue image"
-										width="250px"
-										height="250px"
+										width="310px"
+										height="290px"
 										className="rounded-2xl absolute z-10"
 									/>
 									<div className="h-[100px] w-[150px] rounded-tl-2xl z-[1] absolute -top-2 -left-2 opacity-30 bg-gradient-to-tr from-primary-color via-primary-color to-white shadow-2xl shadow-white"></div>
 								</div>
 							</div>
-							<div className="flex flex-col items-center space-y-2 justify-center">
-								<h3 className="text-3xl md:text-4xl font-black text-secondary-color">
+							<div className="flex flex-col space-y-2 justify-center px-4">
+								<h3 className="text-3xl mt-9 md:text-4xl font-black text-secondary-color">
 									Avenue
 								</h3>
-								<p className="text-gray-600 text-center text-lg">
+								<p className="text-gray-600 md:text-lg text-base w-11/12">
 									Avenue Entertainment Centre Limited, incorporated in March
 									2020, is a live entertainment restaurant/bar and will be Blue
 									Chip’s third establishment. The Avenue brand focuses on
@@ -211,7 +211,7 @@ const Portfolio = () => {
 								</p>
 							</div>
 						</div>
-						<div className="md:flex w-full justify-center items-start md:px-2 hidden">
+						<div className="md:flex w-full justify-center items-center md:px-2 hidden">
 							<div className="relative flex lg:justify-center mr-8">
 								<div className="relative my-8 lg:my-0 lg:w-[400px] md:w-[350px] flex justify-center lg:h-[350px] md:h-[350px]">
 									<div className="lg:h-[320px] lg:w-[400px] md:w-[350px] md:h[360px] z-10 top-3 absolute">
@@ -219,7 +219,7 @@ const Portfolio = () => {
 											src={"/assets/images/blueavenue.png"}
 											alt="blueavenue image"
 											width="400px"
-											height="400px"
+											height="350px"
 											className="rounded-2xl absolute z-10"
 										/>
 										<div className="h-[100px] w-[150px] rounded-tl-2xl z-[1] absolute -top-2 -left-3 md:-left-2 opacity-30 bg-gradient-to-tr from-primary-color via-primary-color to-white shadow-2xl shadow-white"></div>
@@ -249,7 +249,7 @@ const Portfolio = () => {
 						</div>
 					</div>
 					<div className="px-4 md:hidden block">
-						<div className="md:hidden">
+						<div className="md:hidden mb-8">
 							<div className="relative my-8 px-5 md:px-0 lg:my-0 w-full flex justify-center h-[290px]">
 								<div className="h-[300px] w-[500px] md:block hidden z-10 top-3 absolute">
 									<Image
@@ -265,18 +265,18 @@ const Portfolio = () => {
 									<Image
 										src={"/assets/images/mocktail.png"}
 										alt="mocktail image"
-										width="600px"
-										height="550px"
+										width="310px"
+										height="290px"
 										className="rounded-2xl absolute z-10"
 									/>
 									<div className="h-[100px] w-[150px] rounded-tl-2xl z-[1] absolute -top-2 -left-2 opacity-30 bg-gradient-to-tr from-primary-color via-primary-color to-white shadow-2xl shadow-white"></div>
 								</div>
 							</div>
-							<div className="flex flex-col items-center space-y-2 justify-center">
+							<div className="flex flex-col space-y-2 justify-center px-4">
 								<h3 className="text-3xl md:text-4xl font-black text-secondary-color">
 									Scorch
 								</h3>
-								<p className="text-gray-600 text-center text-lg">
+								<p className="text-gray-600 md:text-lg text-base w-11/12">
 									Scorch Restaurant Limited, incorporated in March 2020, is a
 									rodizio concept restaurant and will be Blue Chip’s forth
 									establishment. Scorch is a rodizio concept restaurant with a
