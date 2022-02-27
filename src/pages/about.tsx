@@ -105,7 +105,7 @@ const About = () => {
 							<h3 className="text-5xl font-black text-secondary-color">
 								Our Story
 							</h3>
-							<p className="text-gray-600 text-center mt-4 lg:w-3/5 md:w-10/12 text-lg">
+							<p className="text-gray-600 text-center mt-4 lg:w-4/5 md:w-10/12 text-lg">
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 								Bibendum amet, hendrerit in sollicitudin faucibus aenean
 								volutpat in vel. Pretium neque cursus scelerisque aliquet

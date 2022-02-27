@@ -1,14 +1,38 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import Image from "next/image";
 import Link from "next/link";
-import { useState, Fragment } from "react";
+import Head from "next/head";
+import { useRouter } from "next/router";
+import nProgress from "nprogress";
+import { useState, Fragment, useEffect } from "react";
 import { Dialog, Transition } from "@headlessui/react";
 
 const Navbar = (props: any) => {
+	const Router = useRouter();
+	useEffect(() => {
+		Router.events.on("routeChangeStart", (url) => {
+			console.log(url);
+			nProgress.start();
+		});
+
+		Router.events.on("routeChangeComplete", () => {
+			nProgress.done();
+		});
+
+		return () => {
+			nProgress.done();
+		};
+	}, []);
 	const [open, setOpen] = useState(false);
 
 	return (
 		<div className="flex py-3 px-4 md:px-16 w-full bg-white font-NotoSerif fixed z-50">
+			<Head>
+				<link
+					rel="stylesheet"
+					href="https://cdnjs.cloudflare.com/ajax/libs/nprogress/0.2.0/nprogress.min.css"
+				/>
+			</Head>
 			<div className="flex w-full items-center justify-between">
 				<div>
 					<Link href={"/"}>

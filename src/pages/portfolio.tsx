@@ -76,7 +76,7 @@ const Portfolio = () => {
 									</div>
 								</div>
 							</div>
-							<div className="flex flex-col space-y-2 justify-start lg:w-2/6">
+							<div className="flex flex-col space-y-2 justify-start lg:w-4/6">
 								<h3 className="text-3xl md:text-4xl font-black text-secondary-color">
 									Bloom Bar
 								</h3>
@@ -99,6 +99,7 @@ const Portfolio = () => {
 							</div>
 						</div>
 					</div>
+
 					<div className="px-4 md:hidden block">
 						<div className="md:hidden">
 							<div className="relative my-8 px-5 md:px-0 lg:my-0 w-full flex justify-center h-[290px]">
@@ -136,33 +137,30 @@ const Portfolio = () => {
 							</div>
 						</div>
 					</div>
-					<div className="px-4 md:block hidden">
-						<div className="md:flex w-full justify-center items-center lg:px-10 md:px-3 pt-4 hidden relative">
-							<div className="w-full bg-blue-400">
-								<div className="flex absolute md:-top-56 lg:left-[12rem] lg:-top-16 md:left-10 flex-col mr-8 space-y-2 justify-start lg:w-1/3 md:w-5/12">
-									<h3 className="text-3xl md:text-4xl font-black text-secondary-color">
-										East End
-									</h3>
-									<p className="text-gray-600 text-lg">
-										East End Hospitality Limited, incorporated in September
-										2020, is a bistro restaurant in Ghana and the second
-										establishment of Blue Chip. East End bistro pairs cuisine
-										and a unique ambiance that does not only represent the
-										modern Ghanaian but also a highlights the Ghanaian culture
-										that will make you embrace all your traditions as you dine.
-										East Ends’ vision is to be one of the best restaurants in
-										the world hence striving for the world class attitude. East
-										End seeks to provide its customers with an affordable casual
-										and comfortable experience at a restaurant whiles making
-										memories. East End has a diverse client base, ranging
-										between the ages of 16 to 55 years old. The East End space
-										has a capacity of 180 customers. East End receives an
-										average of 560 customers per week with each customer
-										spending an average of GH₵ 125.
-									</p>
-								</div>
+					<div className="px-4 md:block hidden py-12 relative">
+						<div className="md:flex w-full justify-center items-center lg:px-10 md:px-3 pt-4 hidden">
+							<div className="flex flex-col mr-8 space-y-2 justify-start lg:w-4/6">
+								<h3 className="text-3xl md:text-4xl font-black text-secondary-color">
+									East End
+								</h3>
+								<p className="text-gray-600 text-lg">
+									East End Hospitality Limited, incorporated in September 2020,
+									is a bistro restaurant in Ghana and the second establishment
+									of Blue Chip. East End bistro pairs cuisine and a unique
+									ambiance that does not only represent the modern Ghanaian but
+									also a highlights the Ghanaian culture that will make you
+									embrace all your traditions as you dine. East Ends’ vision is
+									to be one of the best restaurants in the world hence striving
+									for the world class attitude. East End seeks to provide its
+									customers with an affordable casual and comfortable experience
+									at a restaurant whiles making memories. East End has a diverse
+									client base, ranging between the ages of 16 to 55 years old.
+									The East End space has a capacity of 180 customers. East End
+									receives an average of 560 customers per week with each
+									customer spending an average of GH₵ 125.
+								</p>
 							</div>
-							<div className="relative w-full flex lg:justify-start ml-12">
+							<div className="relative flex lg:justify-center">
 								<div className="relative my-8 lg:my-0 lg:w-[400px] md:w-[350px] flex justify-center lg:h-[400px] md:h-[350px]">
 									<div className="lg:h-[400px] lg:w-[400px] md:w-[350px] md:h[380px] z-10 top-3 absolute">
 										<Image
@@ -213,7 +211,7 @@ const Portfolio = () => {
 								</p>
 							</div>
 						</div>
-						<div className="md:flex w-full justify-center items-start md:px-2 pt-4 hidden">
+						<div className="md:flex w-full justify-center items-start md:px-2 hidden">
 							<div className="relative flex lg:justify-center mr-8">
 								<div className="relative my-8 lg:my-0 lg:w-[400px] md:w-[350px] flex justify-center lg:h-[350px] md:h-[350px]">
 									<div className="lg:h-[320px] lg:w-[400px] md:w-[350px] md:h[360px] z-10 top-3 absolute">
@@ -228,7 +226,7 @@ const Portfolio = () => {
 									</div>
 								</div>
 							</div>
-							<div className="flex flex-col space-y-2 justify-start lg:w-2/6">
+							<div className="flex flex-col space-y-2 justify-start lg:w-4/6">
 								<h3 className="text-3xl md:text-4xl font-black text-secondary-color">
 									Avenue
 								</h3>
@@ -293,29 +291,26 @@ const Portfolio = () => {
 							</div>
 						</div>
 					</div>
-					<div className="px-4 md:block hidden my-3">
+					<div className="px-2 md:block hidden my-16">
 						<div className="md:flex w-full justify-center items-center lg:px-10 md:px-3 pt-4 hidden">
-							<div className="w-full relative">
-								<div className="flex flex-col mr-8 space-y-2 justify-start lg:w-4/6 md:w-2/6 lg:-top-56 lg:left-40 absolute -top-[22rem]">
-									<h3 className="text-3xl md:text-4xl font-black text-secondary-color">
-										Scorch
-									</h3>
-									<p className="text-gray-600 text-lg">
-										Scorch Restaurant Limited, incorporated in March 2020, is a
-										rodizio concept restaurant and will be Blue Chip’s forth
-										establishment. Scorch is a rodizio concept restaurant with a
-										local twist to meet the needs of Ghanaians. Scotch will
-										serve a blend of fine dining meals in a relaxed and elegant
-										environment. It seeks to bring its customers an
-										unforgettable premium experience. Scorch will cater to the
-										middle- and upper-class section of the Ghanaian society
-										between the ages of 16 to 55 years old with our services.
-										The restaurant occupies one floor and can seat up to 450
-										customers.
-									</p>
-								</div>
+							<div className="flex flex-col mr-8 space-y-2 justify-start lg:w-4/6">
+								<h3 className="text-3xl md:text-4xl font-black text-secondary-color">
+									Scorch
+								</h3>
+								<p className="text-gray-600 text-lg">
+									Scorch Restaurant Limited, incorporated in March 2020, is a
+									rodizio concept restaurant and will be Blue Chip’s forth
+									establishment. Scorch is a rodizio concept restaurant with a
+									local twist to meet the needs of Ghanaians. Scotch will serve
+									a blend of fine dining meals in a relaxed and elegant
+									environment. It seeks to bring its customers an unforgettable
+									premium experience. Scorch will cater to the middle- and
+									upper-class section of the Ghanaian society between the ages
+									of 16 to 55 years old with our services. The restaurant
+									occupies one floor and can seat up to 450 customers.
+								</p>
 							</div>
-							<div className="relative w-full flex lg:justify-start ml-12">
+							<div className="relative flex lg:justify-center">
 								<div className="relative my-8 lg:my-0 lg:w-[400px] md:w-[350px] flex justify-center lg:h-[400px] md:h-[350px]">
 									<div className="lg:h-[400px] lg:w-[400px] md:w-[350px] md:h[380px] z-10 top-3 absolute">
 										<Image

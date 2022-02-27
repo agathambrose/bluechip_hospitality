@@ -89,7 +89,7 @@ const Home: NextPage = () => {
 												</div>
 											</div>
 											<div>
-												<p className="text-gray-600 lg:w-3/5 md:w-11/12 text-lg">
+												<p className="text-gray-600 lg:w-4/5 md:w-11/12 text-lg">
 													Blue Chip Hospitality Limited (“Blue Chip”) is a
 													hospitality and entertainment company in Ghana in the
 													hospitality industry and operating in the food and
@@ -101,94 +101,96 @@ const Home: NextPage = () => {
 										</div>
 									</div>
 								</div>
-								<div className="relative min-h-[500px] w-full bg-slate-500">
-									<div className="hidden absolute -top-10 lg:left-36 md:left-20 md:block text-gray-600 lg:w-2/5 md:w-2/5">
-										<h3 className="text-4xl font-black text-secondary-color">
-											Our Vision
-										</h3>
-										<p className="text-gray-600 lg:w-3/5 md:w-11/12 text-lg">
-											To be an African powerhouse in hospitality and
-											entertainment across Africa.
-										</p>
-									</div>
-									<div className="absolute z-10  md:top-0 lg:-bottom-20 lg:right-[19rem] md:right-12">
-										<div className="relative h-[280px] w-[380px] md:flex hidden">
-											<div className="w-[350px] h-[300px] z-10 top-2 absolute md:left-14 md:block lg:hidden">
-												<Image
-													src={"/assets/images/darknight.png"}
-													alt="dark night image"
-													width="330px"
-													height="260px"
-													className="rounded-2xl"
-												/>
-											</div>
-											<div className="w-[380px] h-[250px] z-10 top-2 absolute lg:left-14 md:hidden lg:block rounded-2xl">
-												<Image
-													src={"/assets/images/darknight.png"}
-													alt="dark night image"
-													width="370px"
-													height="280px"
-													className="rounded-2xl"
-												/>
-											</div>
-											<div className="h-[100px] w-[100px] rounded-tl-2xl z-[1] absolute top-0 lg:right-[103px] md:left-12 opacity-30 bg-gradient-to-tr from-primary-color via-primary-color to-white shadow-2xl shadow-white"></div>
+								<div className="relative min-h-[500px] w-full bg-slate-500 justify-center">
+									<div className="w-3/5 bg-slate-300 flex justify-center">
+										<div className="hidden absolute -top-10 lg:left-28 xl:left-60 md:left-20 md:block text-gray-600 lg:w-2/5 md:w-2/5">
+											<h3 className="text-4xl font-black text-secondary-color">
+												Our Vision
+											</h3>
+											<p className="text-gray-600 lg:w-3/5 md:w-11/12 text-lg">
+												To be an African powerhouse in hospitality and
+												entertainment across Africa.
+											</p>
 										</div>
-									</div>
-									<div className="absolute z-20 md:top-36 lg:top-32 lg:left-80 md:left-36">
-										<div className="relative h-[280px] w-[400px] md:flex hidden">
-											<div className="w-[300px] h-[300px] z-10 top-2 absolute md:left-14 md:block lg:hidden">
-												<Image
-													src={"/assets/images/barstools.png"}
-													alt="barstools image"
-													width="280px"
-													height="240px"
-													className="rounded-2xl"
-												/>
+										<div className="absolute z-10  md:top-0 lg:-bottom-20 lg:right-[19rem] md:right-12">
+											<div className="relative h-[280px] w-[380px] md:flex hidden">
+												<div className="w-[350px] h-[300px] z-10 top-2 absolute md:left-14 md:block lg:hidden">
+													<Image
+														src={"/assets/images/darknight.png"}
+														alt="dark night image"
+														width="330px"
+														height="260px"
+														className="rounded-2xl"
+													/>
+												</div>
+												<div className="w-[380px] h-[250px] z-10 top-2 absolute lg:left-48 xl:left-20 md:hidden lg:block rounded-2xl">
+													<Image
+														src={"/assets/images/darknight.png"}
+														alt="dark night image"
+														width="370px"
+														height="280px"
+														className="rounded-2xl"
+													/>
+												</div>
+												<div className="h-[100px] w-[100px] rounded-tl-2xl z-[1] absolute top-0 md:left-12 lg:left-[11.5rem] xl:left-[4.5rem] opacity-30 bg-gradient-to-tr from-primary-color via-primary-color to-white shadow-2xl shadow-white"></div>
 											</div>
-											<div className="w-[350px] h-[250px] z-10 top-2 absolute lg:left-14 md:hidden lg:block rounded-2xl">
-												<Image
-													src={"/assets/images/barstools.png"}
-													alt="barstools image"
-													width="330px"
-													height="230px"
-													className="rounded-2xl"
-												/>
-											</div>
-											<div className="h-[100px] w-[100px] rounded-tl-2xl z-[1] absolute top-0 lg:right-[103px] md:left-12 opacity-30 bg-gradient-to-tr from-primary-color via-primary-color to-white shadow-2xl shadow-white"></div>
 										</div>
-									</div>
-									<div className="absolute z-30 md:top-64 lg:-bottom-80 lg:left-[10.5rem] md:left-8">
-										<div className="relative h-[280px] w-[380px] md:flex hidden">
-											<div className="w-[300px] h-[300px] z-10 top-2 absolute md:left-14 md:block lg:hidden">
-												<Image
-													src={"/assets/images/champagne.png"}
-													alt="champagne image"
-													width="230px"
-													height="200px"
-													className="rounded-2xl"
-												/>
+										<div className="absolute z-20 md:top-36 lg:top-32 lg:left-80 md:left-36">
+											<div className="relative h-[280px] w-[400px] md:flex hidden">
+												<div className="w-[300px] h-[300px] z-10 top-2 absolute md:left-14 md:block lg:hidden">
+													<Image
+														src={"/assets/images/barstools.png"}
+														alt="barstools image"
+														width="280px"
+														height="240px"
+														className="rounded-2xl"
+													/>
+												</div>
+												<div className="w-[350px] h-[250px] z-10 top-2 lg:-top-5 xl:top-2 absolute lg:-left-12 xl:left-14 md:hidden lg:block rounded-2xl">
+													<Image
+														src={"/assets/images/barstools.png"}
+														alt="barstools image"
+														width="330px"
+														height="230px"
+														className="rounded-2xl"
+													/>
+												</div>
+												<div className="h-[100px] w-[100px] rounded-tl-2xl z-[1] absolute top-0 lg:-top-7 xl:top-0 xl:right-[103px] lg:-left-14 md:left-12 opacity-30 bg-gradient-to-tr from-primary-color via-primary-color to-white shadow-2xl shadow-white"></div>
 											</div>
-											<div className="w-[280px] h-[250px] z-10 top-2 absolute lg:left-14 md:hidden lg:block rounded-2xl">
-												<Image
-													src={"/assets/images/champagne.png"}
-													alt="champagne image"
-													width="250px"
-													height="230px"
-													className="rounded-2xl"
-												/>
-											</div>
-											<div className="h-[100px] w-[100px] rounded-tl-2xl z-[1] absolute top-0 lg:right-[103px] md:left-12 opacity-30 bg-gradient-to-tr from-primary-color via-primary-color to-white shadow-2xl shadow-white"></div>
 										</div>
-									</div>
-									<div className="hidden absolute lg:bottom-5 md:bottom-12 md:right-2 lg:right-2 md:block text-gray-600 lg:w-2/5 md:w-1/3">
-										<h3 className="text-4xl font-black text-secondary-color">
-											Our Mission
-										</h3>
-										<p className="text-gray-600 lg:w-3/5 md:w-11/12 text-lg">
-											To be the most professional hospitality establishments in
-											Ghana with excellent service ambiance and an unbeatable
-											experience.
-										</p>
+										<div className="absolute z-30 md:top-64 lg:-bottom-80 lg:left-[10.5rem] md:left-8">
+											<div className="relative h-[280px] w-[380px] md:flex hidden">
+												<div className="w-[300px] h-[300px] z-10 top-2 absolute md:left-14 md:block lg:hidden">
+													<Image
+														src={"/assets/images/champagne.png"}
+														alt="champagne image"
+														width="230px"
+														height="200px"
+														className="rounded-2xl"
+													/>
+												</div>
+												<div className="w-[280px] h-[250px] z-10 top-2 lg:-top-6 xl:top-2 absolute lg:-left-16 xl:left-14 md:hidden lg:block rounded-2xl">
+													<Image
+														src={"/assets/images/champagne.png"}
+														alt="champagne image"
+														width="250px"
+														height="230px"
+														className="rounded-2xl"
+													/>
+												</div>
+												<div className="h-[100px] w-[100px] rounded-tl-2xl z-[1] absolute top-0 lg:-top-8 xl:top-0 lg:-left-[4.5rem] xl:right-[103px] md:left-12 opacity-30 bg-gradient-to-tr from-primary-color via-primary-color to-white shadow-2xl shadow-white"></div>
+											</div>
+										</div>
+										<div className="hidden absolute lg:bottom-5 md:bottom-12 md:right-2 lg:right-2 md:block text-gray-600 lg:w-2/6 xl:w-2/5 md:w-1/3">
+											<h3 className="text-4xl font-black text-secondary-color">
+												Our Mission
+											</h3>
+											<p className="text-gray-600 lg:w-3/5 md:w-11/12 text-lg">
+												To be the most professional hospitality establishments
+												in Ghana with excellent service ambiance and an
+												unbeatable experience.
+											</p>
+										</div>
 									</div>
 								</div>
 								<div className="flex flex-col justify-center items-center py-8">

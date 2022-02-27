@@ -65,7 +65,8 @@ const Services = () => {
 							</p>
 						</div>
 					</div>
-					<div className="md:flex w-full justify-center items-center lg:px-10 md:px-3 pt-4 hidden">
+					<div className="md:flex w-full justify-center items-center lg:px-10 md:px-3 pt-4 hidden relative">
+						<div className="h-[600px] w-[1px] bg-gray-400 bottom-5 md:top-20 lg:-top-6 absolute md:right-5 lg:right-10"></div>
 						<div className="relative flex lg:justify-center mr-8">
 							<div className="relative my-8 lg:my-0 lg:w-[400px] md:w-[350px] flex justify-center lg:h-[400px] md:h-[350px]">
 								<div className="lg:h-[400px] lg:w-[400px] md:w-[350px] md:h[380px] z-10 top-3 absolute">
@@ -80,7 +81,7 @@ const Services = () => {
 								</div>
 							</div>
 						</div>
-						<div className="flex flex-col space-y-2 justify-start lg:w-2/6">
+						<div className="flex flex-col space-y-2 justify-start lg:w-4/6 mr-2">
 							<h3 className="text-3xl md:text-4xl font-black text-secondary-color">
 								Conceptualization
 							</h3>
@@ -141,8 +142,9 @@ const Services = () => {
 					</div>
 				</div>
 				<div className="px-4 md:block hidden">
-					<div className="md:flex w-full justify-center items-center lg:px-10 md:px-3 pt-4 hidden">
-						<div className="flex flex-col mr-8 space-y-2 justify-start lg:w-2/6">
+					<div className="md:flex w-full justify-center items-center lg:px-10 md:px-3 pt-4 hidden relative">
+						<div className="h-[1815px] w-[1px] bg-gray-400 bottom-5 md:top-20 lg:-top-6 absolute right-0 md:left-5 lg:left-14"></div>
+						<div className="flex flex-col ml-6 mr-8 space-y-2 justify-start lg:w-3/6">
 							<h3 className="text-3xl md:text-4xl font-black text-secondary-color">
 								Construction
 							</h3>
@@ -229,7 +231,7 @@ const Services = () => {
 								</div>
 							</div>
 						</div>
-						<div className="flex flex-col space-y-2 justify-start lg:w-2/6">
+						<div className="flex flex-col space-y-2 justify-start lg:w-5/6">
 							<h3 className="text-3xl md:text-4xl font-black text-white">
 								Menu Development
 							</h3>
@@ -289,7 +291,7 @@ const Services = () => {
 				</div>
 				<div className="px-4 md:block hidden">
 					<div className="md:flex w-full justify-center items-center lg:px-10 md:px-3 pt-4 hidden">
-						<div className="flex flex-col mr-8 space-y-2 justify-start lg:w-2/6">
+						<div className="flex flex-col ml-8 mr-8 space-y-2 justify-start lg:w-4/6">
 							<h3 className="text-3xl md:text-4xl font-black text-secondary-color">
 								Hiring and Training
 							</h3>
@@ -366,7 +368,7 @@ const Services = () => {
 								</div>
 							</div>
 						</div>
-						<div className="flex flex-col space-y-2 justify-start lg:w-2/6">
+						<div className="flex flex-col space-y-2 justify-start lg:w-5/6">
 							<h3 className="text-3xl md:text-4xl font-black text-secondary-color">
 								Operations
 							</h3>
@@ -384,7 +386,7 @@ const Services = () => {
 						</div>
 					</div>
 				</div>
-				<Footer/>
+				<Footer />
 			</div>
 		</div>
 	);
