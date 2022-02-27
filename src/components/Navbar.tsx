@@ -100,7 +100,7 @@ const Navbar = (props: any) => {
 							<a>Portfolio</a>
 						</Link>
 					</div>
-					{/* <div
+					<div
 						className={`${
 							props.contact_us === "contact us"
 								? "focus:text-primary-color text-primary-color"
@@ -111,7 +111,7 @@ const Navbar = (props: any) => {
 							<a>Contact Us</a>
 						</Link>
 					</div>
-					<div
+					{/* <div
 						className={`${
 							props.team === "team"
 								? "focus:text-primary-color text-primary-color"
@@ -194,9 +194,9 @@ const Navbar = (props: any) => {
 												<Link href={"/contact_us"}>
 													<a>Contact Us</a>
 												</Link>
-												<Link href={"/team"}>
+												{/* <Link href={"/team"}>
 													<a>Team</a>
-												</Link>
+												</Link> */}
 											</div>
 										</div>
 									</div>

@@ -32,6 +32,11 @@ const Footer = () => {
 								<a>About</a>
 							</Link>
 						</div>
+						<div>
+							<Link href="/services">
+								<a>Services</a>
+							</Link>
+						</div>
 					</div>
 					<div className="md:flex md:flex-col font-semibold text-lg md:text-xl md:space-y-6">
 						<div>
@@ -39,11 +44,9 @@ const Footer = () => {
 								<a>Portfolio</a>
 							</Link>
 						</div>
-					</div>
-					<div className="md:flex md:flex-col font-semibold text-lg md:text-xl md:space-y-6">
 						<div>
-							<Link href="/services">
-								<a>Services</a>
+							<Link href="/contact_us">
+								<a>Contact us</a>
 							</Link>
 						</div>
 					</div>
