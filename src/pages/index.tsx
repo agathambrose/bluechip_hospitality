@@ -101,7 +101,7 @@ const Home: NextPage = () => {
 										</div>
 									</div>
 								</div>
-								<div className="relative min-h-[500px] w-full bg-slate-500 justify-center">
+								<div className="relative min-h-[500px] w-full justify-center">
 									<div className="w-3/5 bg-slate-300 flex justify-center">
 										<div className="hidden absolute -top-10 lg:left-28 xl:left-60 md:left-20 md:block text-gray-600 lg:w-2/5 md:w-2/5">
 											<h3 className="text-4xl font-black text-secondary-color">

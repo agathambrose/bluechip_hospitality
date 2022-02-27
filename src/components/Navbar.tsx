@@ -100,7 +100,7 @@ const Navbar = (props: any) => {
 							<a>Portfolio</a>
 						</Link>
 					</div>
-					<div
+					{/* <div
 						className={`${
 							props.contact_us === "contact us"
 								? "focus:text-primary-color text-primary-color"
@@ -121,7 +121,7 @@ const Navbar = (props: any) => {
 						<Link href="/team">
 							<a>Team</a>
 						</Link>
-					</div>
+					</div> */}
 				</div>
 			</div>
 			<Transition.Root show={open} as={Fragment}>
