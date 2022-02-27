@@ -5,7 +5,7 @@ const Team = () => {
 	return (
 		<div>
 			<Head>
-				<title>Bluechip - Home</title>
+				<title>Bluechip - Team</title>
 			</Head>
 			<Navbar team={"team"} />
 			<div className="font-NotoSerif">

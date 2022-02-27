@@ -7,7 +7,7 @@ const Portfolio = () => {
 	return (
 		<div>
 			<Head>
-				<title>Bluechip - Home</title>
+				<title>Bluechip - Portfolio</title>
 			</Head>
 			<Navbar portfolio={"portfolio"} />
 			<div className="font-NotoSerif">

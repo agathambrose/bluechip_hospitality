@@ -6,7 +6,7 @@ const ContactUS = () => {
 	return (
 		<div>
 			<Head>
-				<title>Bluechip - Home</title>
+				<title>Bluechip - Contact Us</title>
 			</Head>
 			<Navbar contact_us={"contact us"} />
 			<div className="font-NotoSerif">
