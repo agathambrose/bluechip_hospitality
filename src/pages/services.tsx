@@ -253,29 +253,19 @@ const Services = () => {
 					<div className="md:hidden relative">
 						<div className="md:hidden h-[1680px] w-[1px] bg-gray-400 top-24 absolute left-4"></div>
 						<div className="relative my-8 px-5 md:px-0 lg:my-0 w-full flex justify-center h-[290px]">
-							<div className="h-[300px] w-[500px] md:block hidden z-10 top-3 absolute">
+							<div className="h-[550px] block md:hidden z-10 top-3 absolute">
 								<Image
-									src={"/assets/images/pyramid.png"}
-									alt="pyramid image"
-									width="500px"
-									height="300px"
-									className="rounded-2xl absolute z-10"
-								/>
-								<div className="h-[100px] w-[150px] rounded-tl-2xl z-[1] absolute -top-2 -left-3 opacity-30 bg-gradient-to-tr from-primary-color via-primary-color to-white shadow-2xl shadow-white"></div>
-							</div>
-							<div className="h-[600px] block md:hidden z-10 top-3 absolute">
-								<Image
-									src={"/assets/images/handshake.svg"}
-									alt="handshake image"
+									src={"/assets/images/writingman.png"}
+									alt="writing man image"
 									width="600px"
-									height="650px"
+									height="550px"
 									className="rounded-2xl absolute z-10"
 								/>
-								<div className="h-[100px] w-[150px] rounded-tl-2xl z-[1] absolute top-4 -left-2 opacity-30 bg-gradient-to-tr from-primary-color via-primary-color to-white shadow-2xl shadow-white"></div>
+								<div className="h-[100px] w-[150px] rounded-tl-2xl z-[1] absolute -top-2 -left-2 opacity-30 bg-gradient-to-tr from-primary-color via-primary-color to-white shadow-2xl shadow-white"></div>
 							</div>
 						</div>
 						<div className="flex flex-col items-center space-y-2 justify-center">
-							<h3 className="text-3xl md:text-4xl font-black text-secondary-color mt-8">
+							<h3 className="text-3xl md:text-4xl font-black text-secondary-color">
 								Hiring and Training
 							</h3>
 							<p className="text-gray-600 w-5/6 md:text-lg text-base">
@@ -312,13 +302,13 @@ const Services = () => {
 							<div className="relative my-8 lg:my-0 lg:w-[400px] md:w-[350px] flex justify-center lg:h-[400px] md:h-[350px]">
 								<div className="lg:h-[400px] lg:w-[400px] md:w-[350px] md:h[380px] z-10 top-3 absolute">
 									<Image
-										src={"/assets/images/handshake.svg"}
-										alt="handshake image"
+										src={"/assets/images/writingman.png"}
+										alt="writing man image"
 										width="400px"
 										height="380px"
 										className="rounded-2xl absolute z-10"
 									/>
-									<div className="h-[100px] w-[150px] rounded-tl-3xl z-[1] absolute -top-0 md:-left-1 lg:-left-2 opacity-30 bg-gradient-to-tr from-primary-color via-primary-color to-white shadow-2xl shadow-white"></div>
+									<div className="h-[100px] w-[150px] rounded-tl-3xl z-[1] absolute md:-top-2 lg:-top-2 md:-left-2 lg:-left-2 opacity-30 bg-gradient-to-tr from-primary-color via-primary-color to-white shadow-2xl shadow-white"></div>
 								</div>
 							</div>
 						</div>
@@ -329,8 +319,8 @@ const Services = () => {
 						<div className="relative my-8 px-5 md:px-0 lg:my-0 w-full flex justify-center h-[280px]">
 							<div className="h-[600px] block md:hidden z-10 top-3 absolute">
 								<Image
-									src={"/assets/images/laptop.svg"}
-									alt="laptop image"
+									src={"/assets/images/brownchairs.png"}
+									alt="brown chairs image"
 									width="600px"
 									height="550px"
 									className="rounded-2xl absolute z-10"
@@ -360,13 +350,13 @@ const Services = () => {
 							<div className="relative my-8 lg:my-0 lg:w-[400px] md:w-[350px] flex justify-center lg:h-[400px] md:h-[350px]">
 								<div className="lg:h-[400px] lg:w-[400px] md:w-[350px] md:h[380px] z-10 top-3 absolute">
 									<Image
-										src={"/assets/images/laptop.svg"}
-										alt="laptop image"
+										src={"/assets/images/brownchairs.png"}
+										alt="brown chairs image"
 										width="400px"
 										height="380px"
 										className="rounded-2xl absolute z-10"
 									/>
-									<div className="h-[100px] w-[150px] rounded-tl-2xl z-[1] absolute -top-0 -left-3 md:-left-1 lg:left-0 opacity-30 bg-gradient-to-tr from-primary-color via-primary-color to-white shadow-2xl shadow-white"></div>
+									<div className="h-[100px] w-[150px] rounded-tl-2xl z-[1] absolute md:-top-2 lg:-top-2 md:-left-2 lg:-left-2 opacity-30 bg-gradient-to-tr from-primary-color via-primary-color to-white shadow-2xl shadow-white"></div>
 								</div>
 							</div>
 						</div>
