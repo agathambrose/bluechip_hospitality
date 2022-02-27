@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 
 const ContactUS = () => {
@@ -28,6 +29,55 @@ const ContactUS = () => {
 						</p>
 						<div className="w-[150px] h-1 rounded-md bg-gray-200"></div>
 					</div>
+				</div>
+				<div>
+					<div className="container px-5 py-24 flex sm:flex-nowrap flex-wrap justify-center items-center">
+						<div className="lg:w-2/4 bg-blue-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-center relative">
+							<iframe
+								title="map"
+								className="absolute inset-0"
+								frameBorder="0"
+								marginHeight={0}
+								marginWidth={0}
+								scrolling="no"
+								src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3971.083765959774!2d-0.1825589861793951!3d5.554600635210417!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf907bb3a06cbb%3A0x744dd672c8729bc3!2sTroas%20St%2C%20Accra!5e0!3m2!1sen!2sgh!4v1645998463788!5m2!1sen!2sgh"
+								width="600"
+								height="450"
+								allowFullScreen={false}
+								loading="lazy"
+								style={{ filter: "grayscale(1) contrast(1.2) opacity(0.16)" }}
+							></iframe>
+							<div className="bg-secondary-color relative flex flex-wrap py-6 rounded shadow-md">
+								<div className="lg:w-1/2 px-6">
+									<h2 className="title-font font-semibold text-white tracking-widest text-xs">
+										ADDRESS
+									</h2>
+									<p className="mt-1 text-gray-400">
+										House Number F330/2, Troas Street, Near Simbins Furniture,
+										Osu, Accra, Ghana.
+									</p>
+								</div>
+								<div className="lg:w-2/3 px-6 mt-4 lg:mt-0">
+									<h2 className="title-font font-semibold text-white tracking-widest text-xs">
+										EMAIL
+									</h2>
+									<a
+										href="mailto:ambrosia.spa.ng@gmail.com"
+										className="text-pink-400 leading-relaxed"
+									>
+										info@bluechip.com
+									</a>
+									<h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
+										PHONE
+									</h2>
+									<p className="leading-relaxed text-gray-300">
+										+ {""}(233) {""}12345678
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<Footer />
 				</div>
 			</div>
 		</div>
