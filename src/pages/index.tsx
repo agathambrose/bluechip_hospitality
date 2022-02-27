@@ -155,7 +155,7 @@ const Home: NextPage = () => {
 														className="rounded-2xl"
 													/>
 												</div>
-												<div className="h-[100px] w-[100px] rounded-tl-2xl z-[1] absolute top-0 lg:-top-7 xl:top-0 xl:right-[103px] lg:-left-14 md:left-12 opacity-30 bg-gradient-to-tr from-primary-color via-primary-color to-white shadow-2xl shadow-white"></div>
+												<div className="h-[100px] w-[100px] rounded-tl-2xl z-[1] absolute top-0 lg:-top-7 xl:top-0 xl:left-12 lg:-left-14 md:left-12 opacity-30 bg-gradient-to-tr from-primary-color via-primary-color to-white shadow-2xl shadow-white"></div>
 											</div>
 										</div>
 										<div className="absolute z-30 md:top-64 lg:-bottom-80 lg:left-[10.5rem] md:left-8">
@@ -178,7 +178,7 @@ const Home: NextPage = () => {
 														className="rounded-2xl"
 													/>
 												</div>
-												<div className="h-[100px] w-[100px] rounded-tl-2xl z-[1] absolute top-0 lg:-top-8 xl:top-0 lg:-left-[4.5rem] xl:right-[103px] md:left-12 opacity-30 bg-gradient-to-tr from-primary-color via-primary-color to-white shadow-2xl shadow-white"></div>
+												<div className="h-[100px] w-[100px] rounded-tl-2xl z-[1] absolute top-0 lg:-top-8 xl:top-0 lg:-left-[4.5rem] xl:left-12 md:left-12 opacity-30 bg-gradient-to-tr from-primary-color via-primary-color to-white shadow-2xl shadow-white"></div>
 											</div>
 										</div>
 										<div className="hidden absolute lg:bottom-5 md:bottom-12 md:right-2 lg:right-2 md:block text-gray-600 lg:w-2/6 xl:w-2/5 md:w-1/3">
