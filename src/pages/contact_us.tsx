@@ -32,7 +32,7 @@ const ContactUS = () => {
 				</div>
 				<div>
 					<div className="container px-5 py-24 flex sm:flex-nowrap flex-wrap justify-center items-center">
-						<div className="lg:w-2/4 bg-blue-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-center relative">
+						<div className="lg:w-2/4 shadow-md border border-gray-800 bg-gray-500 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-center relative">
 							<iframe
 								title="map"
 								className="absolute inset-0"
