@@ -102,10 +102,10 @@ const Home: NextPage = () => {
 									</div>
 								</div> */}
 								<div className="w-full flex justify-center">
-									<div className="md:flex w-4/5 justify-center items-center lg:px-10 md:px-3 pt-4 hidden">
+									<div className="md:flex w-4/5 justify-center lg:px-10 md:px-3 pt-4 hidden">
 										<div className="relative flex lg:justify-center mr-8">
-											<div className="relative my-8 lg:my-0 lg:w-[400px] md:w-[350px] flex justify-center lg:h-[400px] md:h-[350px]">
-												<div className="lg:h-[400px] lg:w-[400px] md:w-[350px] md:h[380px] z-10 top-3 absolute">
+											<div className="relative my-8 lg:my-0 lg:w-[400px] md:w-[260px] flex justify-center lg:h-[400px] md:h-[350px]">
+												<div className="lg:h-[400px] lg:w-[400px] md:w-[290px] md:h[380px] z-10 top-3 absolute">
 													<Image
 														src={"/assets/images/gardenimage.png"}
 														alt="garden image"
@@ -117,9 +117,9 @@ const Home: NextPage = () => {
 												</div>
 											</div>
 										</div>
-										<div className="flex flex-col space-y-2 justify-start lg:w-5/6">
+										<div className="flex flex-col justify-start lg:w-5/6">
 											<div className="flex justify-center w-full">
-												<div className="">
+												<div>
 													<div>
 														<h3 className="text-3xl md:text-4xl font-black text-secondary-color">
 															A Glimpse
@@ -146,7 +146,7 @@ const Home: NextPage = () => {
 														</div>
 													</div>
 													<div>
-														<p className="text-gray-600 lg:w-4/5 md:w-11/12 text-lg">
+														<p className="text-gray-600 lg:w-4/5 text-lg">
 															Blue Chip Hospitality Limited (“Blue Chip”) is a
 															hospitality and entertainment company in Ghana in
 															the hospitality industry and operating in the food
@@ -161,9 +161,20 @@ const Home: NextPage = () => {
 										</div>
 									</div>
 								</div>
+								<div className="w-full flex justify-center relative">
+									<div className="hidden absolute xl:top-10 lg:left-28 xl:left-[14.5rem] md:left-20 md:-top-14 md:block text-gray-600 lg:w-2/5 md:w-2/5">
+										<h3 className="text-4xl font-black text-secondary-color">
+											Our Vision
+										</h3>
+										<p className="text-gray-600 lg:w-3/5 md:w-11/12 text-lg">
+											To be an African powerhouse in hospitality and
+											entertainment across Africa.
+										</p>
+									</div>
+								</div>
 								<div className="relative min-h-[500px] w-full justify-center">
 									<div className="w-3/5 bg-slate-300 flex justify-center">
-										<div className="hidden absolute -top-10 xl:-top-2 lg:left-28 xl:left-[14.5rem] md:left-20 md:block text-gray-600 lg:w-2/5 md:w-2/5">
+										{/* <div className="hidden absolute -top-10 xl:-top-2 lg:left-28 xl:left-[14.5rem] md:left-20 md:block text-gray-600 lg:w-2/5 md:w-2/5">
 											<h3 className="text-4xl font-black text-secondary-color">
 												Our Vision
 											</h3>
@@ -171,7 +182,7 @@ const Home: NextPage = () => {
 												To be an African powerhouse in hospitality and
 												entertainment across Africa.
 											</p>
-										</div>
+										</div> */}
 										<div className="absolute z-10  md:top-0 lg:-bottom-20 lg:right-[19rem] md:right-12">
 											<div className="relative h-[280px] w-[380px] md:flex hidden">
 												<div className="w-[350px] h-[300px] z-10 top-2 absolute md:left-14 md:block lg:hidden">
