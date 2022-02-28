@@ -105,7 +105,7 @@ const About = () => {
 							<h3 className="text-3xl md:text-4xl font-black text-secondary-color">
 								Our Story
 							</h3>
-							<p className="text-gray-600 text-center mt-4 lg:w-4/5 md:w-10/12 md:text-lg text-sm">
+							<p className="text-gray-600 text-center mt-4 lg:w-3/5 md:w-10/12 md:text-lg text-sm">
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 								Bibendum amet, hendrerit in sollicitudin faucibus aenean
 								volutpat in vel. Pretium neque cursus scelerisque aliquet
@@ -123,7 +123,7 @@ const About = () => {
 								diam a viverra et. Enim.
 							</p>
 						</div>
-						<div className="h-[360px] lg:[300px] w-[220px] bottom-5 md:top-20 lg:top-10 absolute right-0 md:right-5 lg:right-20 border-r border-b border-black "></div>
+						<div className="h-[360px] lg:h-[350px] xl:h-[300px] w-[220px] bottom-5 md:top-20 lg:top-12 xl:top-5 absolute right-0 md:right-5 lg:right-20 border-r border-b border-black"></div>
 					</div>
 				</div>
 				<Footer />
