@@ -54,15 +54,14 @@ const Services = () => {
 								Conceptualization
 							</h3>
 							<p className="text-gray-600 w-4/5 md:text-lg text-base">
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tortor
-								neque, volutpat morbi quam. Vulputate augue tempus vehicula
-								euismod penatibus velit, eget. Egestas diam gravida tempus,
-								magnis eget turpis orci tortor nascetur. Augue eu eget
-								suspendisse consequat quis at. Arcu sagittis fames arcu, odio.
-								Neque vel diam aliquam, consequat, sed. Sed proin eu arcu orci
-								ultricies nunc. Ut sit purus suspendisse nibh purus placerat
-								vestibulum. Cras donec fermentum porttitor quis lectus quam.
-								Turpis pretium mattis purus a tortor. Cras.
+								Blue Chip Hospitality has an experienced team that develops
+								hospitality concepts with emphasis on bar and restaurant. With
+								our service on developing concepts, we engage our clients to
+								understand their idea of business direction, market target,
+								experience to be created visually, audibly, emotionally and
+								tangibly. Through this understanding we can help bring concept
+								to life engaging all the five senses and develop business
+								strategies .
 							</p>
 						</div>
 					</div>
@@ -87,15 +86,14 @@ const Services = () => {
 								Conceptualization
 							</h3>
 							<p className="text-gray-600 text-lg">
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tortor
-								neque, volutpat morbi quam. Vulputate augue tempus vehicula
-								euismod penatibus velit, eget. Egestas diam gravida tempus,
-								magnis eget turpis orci tortor nascetur. Augue eu eget
-								suspendisse consequat quis at. Arcu sagittis fames arcu, odio.
-								Neque vel diam aliquam, consequat, sed. Sed proin eu arcu orci
-								ultricies nunc. Ut sit purus suspendisse nibh purus placerat
-								vestibulum. Cras donec fermentum porttitor quis lectus quam.
-								Turpis pretium mattis purus a tortor. Cras.
+								Blue Chip Hospitality has an experienced team that develops
+								hospitality concepts with emphasis on bar and restaurant. With
+								our service on developing concepts, we engage our clients to
+								understand their idea of business direction, market target,
+								experience to be created visually, audibly, emotionally and
+								tangibly. Through this understanding we can help bring concept
+								to life engaging all the five senses and develop business
+								strategies .
 							</p>
 						</div>
 					</div>
@@ -333,15 +331,16 @@ const Services = () => {
 								Operations
 							</h3>
 							<p className="text-gray-600 w-5/6 md:text-lg text-base">
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tortor
-								neque, volutpat morbi quam. Vulputate augue tempus vehicula
-								euismod penatibus velit, eget. Egestas diam gravida tempus,
-								magnis eget turpis orci tortor nascetur. Augue eu eget
-								suspendisse consequat quis at. Arcu sagittis fames arcu, odio.
-								Neque vel diam aliquam, consequat, sed. Sed proin eu arcu orci
-								ultricies nunc. Ut sit purus suspendisse nibh purus placerat
-								vestibulum. Cras donec fermentum porttitor quis lectus quam.
-								Turpis pretium mattis purus a tortor. Cras.
+								Blue Chip provides structures, tools, and systems to run the
+								entire operational line from Front-of-House to Back-of-House.
+								There are a lot of parts in motion when running a restaurant or
+								bar. Each part is extremely essential for the success of the
+								other and for the business as a whole. There are two main parts,
+								namely Front of House (FOH), which includes waiters, bartenders,
+								bar managers, barbacks, supervisors, floor managers, food
+								runners and cashiers. Back-of-House (BOH): Back-of-House staff
+								includes kitchen offices, storage rooms, chef, procurement,
+								accountants, etc.
 							</p>
 						</div>
 					</div>
@@ -365,15 +364,16 @@ const Services = () => {
 								Operations
 							</h3>
 							<p className="text-gray-600 text-lg">
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tortor
-								neque, volutpat morbi quam. Vulputate augue tempus vehicula
-								euismod penatibus velit, eget. Egestas diam gravida tempus,
-								magnis eget turpis orci tortor nascetur. Augue eu eget
-								suspendisse consequat quis at. Arcu sagittis fames arcu, odio.
-								Neque vel diam aliquam, consequat, sed. Sed proin eu arcu orci
-								ultricies nunc. Ut sit purus suspendisse nibh purus placerat
-								vestibulum. Cras donec fermentum porttitor quis lectus quam.
-								Turpis pretium mattis purus a tortor. Cras.
+								Blue Chip provides structures, tools, and systems to run the
+								entire operational line from Front-of-House to Back-of-House.
+								There are a lot of parts in motion when running a restaurant or
+								bar. Each part is extremely essential for the success of the
+								other and for the business as a whole. There are two main parts,
+								namely Front of House (FOH), which includes waiters, bartenders,
+								bar managers, barbacks, supervisors, floor managers, food
+								runners and cashiers. Back-of-House (BOH): Back-of-House staff
+								includes kitchen offices, storage rooms, chef, procurement,
+								accountants, etc.
 							</p>
 						</div>
 					</div>

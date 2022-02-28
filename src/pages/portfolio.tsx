@@ -13,7 +13,16 @@ const Portfolio = () => {
 			<div className="font-NotoSerif">
 				<div>
 					<div className="relative">
-						<div className="flex object-fill w-full h-[600px] bg-gray-500 bg-portfolio-hero md:bg-portfolio-hero-md lg:bg-portfolio-hero-lg bg-no-repeat bg-cover justify-start relative"></div>
+						{/* <div className="flex w-full h-[600px] bg-gray-500 bg-portfolio-hero md:bg-portfolio-hero-md lg:bg-portfolio-hero-lg bg-no-repeat bg-cover justify-start relative"></div> */}
+						<div className="h-[550px] w-full bg-gray-400">
+							<Image
+								src={"/assets/images/portfolio.svg"}
+								alt="portfolio image"
+								width={1400}
+								height={700}
+								className="object-fill"
+							/>
+						</div>
 						<div className="text-white absolute bottom-20 md:left-24 left-10">
 							<h1 className="font-black md:text-6xl text-4xl w-3/5">
 								Blue Chip Portfolio

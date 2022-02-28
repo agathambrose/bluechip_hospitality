@@ -34,7 +34,7 @@ const Home: NextPage = () => {
 						</h3>
 					</div>
 				</div>
-				<div className="w-full bg-gradient-to-b from-transparent via-white to-white h-[200px] absolute md:block hidden -bottom-10"></div>
+				<div className="w-full bg-gradient-to-b from-transparent via-white to-white h-[200px] absolute md:block lg:block xl:block 2xl:block hidden -bottom-10 xl:bottom-80"></div>
 				<div className="flex flex-col relative w-full h-full">
 					<div className="relative">
 						<div className="w-full from-transparent via-white to-white absolute -top-20">
@@ -50,16 +50,16 @@ const Home: NextPage = () => {
 												className="rounded-2xl"
 											/>
 										</div>
-										<div className="w-[300px] h-[300px] z-10 top-2 lg:absolute md:right-4 lg:right-[6.6rem] md:hidden lg:block rounded-2xl">
+										<div className="lg:w-[300px] lg:h-[300px] xl:w-[450px] xl:h-[350px] z-10 top-2 lg:absolute md:right-4 lg:right-[6.6rem] xl:right-10 md:hidden lg:block rounded-2xl">
 											<Image
 												src={"/assets/images/gardenimage.png"}
 												alt="garden image"
-												width="350px"
-												height="380px"
+												width="400px"
+												height="350px"
 												className="rounded-2xl"
 											/>
 										</div>
-										<div className="h-[100px] w-[150px]  rounded-tl-2xl z-[1] absolute top-0 lg:left-[13.5rem] md:left-12 opacity-30 bg-gradient-to-tr from-primary-color via-primary-color to-white shadow-2xl shadow-white"></div>
+										<div className="h-[100px] w-[150px]  rounded-tl-2xl z-[1] absolute top-0 lg:left-[13.5rem] xl:left-[13.8rem] md:left-12 opacity-30 bg-gradient-to-tr from-primary-color via-primary-color to-white shadow-2xl shadow-white"></div>
 									</div>
 									<div className="flex justify-center w-full">
 										<div className="">
@@ -103,7 +103,7 @@ const Home: NextPage = () => {
 								</div>
 								<div className="relative min-h-[500px] w-full justify-center">
 									<div className="w-3/5 bg-slate-300 flex justify-center">
-										<div className="hidden absolute -top-10 lg:left-28 xl:left-60 md:left-20 md:block text-gray-600 lg:w-2/5 md:w-2/5">
+										<div className="hidden absolute -top-10 xl:-top-2 lg:left-28 xl:left-[14.5rem] md:left-20 md:block text-gray-600 lg:w-2/5 md:w-2/5">
 											<h3 className="text-4xl font-black text-secondary-color">
 												Our Vision
 											</h3>
@@ -123,16 +123,16 @@ const Home: NextPage = () => {
 														className="rounded-2xl"
 													/>
 												</div>
-												<div className="w-[380px] h-[250px] z-10 top-2 absolute lg:left-48 xl:left-20 md:hidden lg:block rounded-2xl">
+												<div className="lg:w-[380px] lg:h-[250px] xl:w-[450px] xl:h-[300px] z-10 top-2 absolute lg:left-48 xl:left-10 md:hidden lg:block rounded-2xl">
 													<Image
 														src={"/assets/images/darknight.png"}
 														alt="dark night image"
-														width="370px"
-														height="280px"
+														width="450px"
+														height="300px"
 														className="rounded-2xl"
 													/>
 												</div>
-												<div className="h-[100px] w-[100px] rounded-tl-2xl z-[1] absolute top-0 md:left-12 lg:left-[11.5rem] xl:left-[4.5rem] opacity-30 bg-gradient-to-tr from-primary-color via-primary-color to-white shadow-2xl shadow-white"></div>
+												<div className="h-[100px] w-[100px] rounded-tl-2xl z-[1] absolute top-0 md:left-12 lg:left-[11.5rem] xl:left-[2rem] opacity-30 bg-gradient-to-tr from-primary-color via-primary-color to-white shadow-2xl shadow-white"></div>
 											</div>
 										</div>
 										<div className="absolute z-20 md:top-36 lg:top-32 lg:left-80 md:left-36">
@@ -146,16 +146,16 @@ const Home: NextPage = () => {
 														className="rounded-2xl"
 													/>
 												</div>
-												<div className="w-[350px] h-[250px] z-10 top-2 lg:-top-5 xl:top-2 absolute lg:-left-12 xl:left-14 md:hidden lg:block rounded-2xl">
+												<div className="lg:w-[350px] lg:h-[250px] xl:w-[380px] xl:h-[300px] z-10 top-2 lg:-top-5 xl:top-2 absolute lg:-left-12 xl:left-36 md:hidden lg:block rounded-2xl">
 													<Image
 														src={"/assets/images/barstools.png"}
 														alt="barstools image"
-														width="330px"
-														height="230px"
+														width="400px"
+														height="300px"
 														className="rounded-2xl"
 													/>
 												</div>
-												<div className="h-[100px] w-[100px] rounded-tl-2xl z-[1] absolute top-0 lg:-top-7 xl:top-0 xl:left-12 lg:-left-14 md:left-12 opacity-30 bg-gradient-to-tr from-primary-color via-primary-color to-white shadow-2xl shadow-white"></div>
+												<div className="h-[100px] w-[100px] rounded-tl-2xl z-[1] absolute top-0 lg:-top-7 xl:top-0 xl:left-[8.5rem] lg:-left-14 md:left-12 opacity-30 bg-gradient-to-tr from-primary-color via-primary-color to-white shadow-2xl shadow-white"></div>
 											</div>
 										</div>
 										<div className="absolute z-30 md:top-64 lg:-bottom-80 lg:left-[10.5rem] md:left-8">
@@ -169,19 +169,19 @@ const Home: NextPage = () => {
 														className="rounded-2xl"
 													/>
 												</div>
-												<div className="w-[280px] h-[250px] z-10 top-2 lg:-top-6 xl:top-2 absolute lg:-left-16 xl:left-14 md:hidden lg:block rounded-2xl">
+												<div className="lg:w-[280px] lg:h-[250px] xl:w-[340px] xl:h-[260px] z-10 top-2 lg:-top-6 xl:top-2 absolute lg:-left-16 xl:left-14 md:hidden lg:block rounded-2xl">
 													<Image
 														src={"/assets/images/champagne.png"}
 														alt="champagne image"
-														width="250px"
-														height="230px"
+														width="340px"
+														height="260px"
 														className="rounded-2xl"
 													/>
 												</div>
 												<div className="h-[100px] w-[100px] rounded-tl-2xl z-[1] absolute top-0 lg:-top-8 xl:top-0 lg:-left-[4.5rem] xl:left-12 md:left-12 opacity-30 bg-gradient-to-tr from-primary-color via-primary-color to-white shadow-2xl shadow-white"></div>
 											</div>
 										</div>
-										<div className="hidden absolute lg:bottom-5 md:bottom-12 md:right-2 lg:right-2 md:block text-gray-600 lg:w-2/6 xl:w-2/5 md:w-1/3">
+										<div className="hidden absolute lg:bottom-5 md:bottom-12 md:right-2 lg:right-2 xl:right-0 md:block text-gray-600 lg:w-2/6 xl:w-2/5 md:w-1/3">
 											<h3 className="text-4xl font-black text-secondary-color">
 												Our Mission
 											</h3>
@@ -193,7 +193,7 @@ const Home: NextPage = () => {
 										</div>
 									</div>
 								</div>
-								<div className="flex flex-col justify-center items-center py-8">
+								<div className="flex flex-col justify-center items-center xl:mt-8 py-8">
 									<div className="h-1 rounded-full w-[250px] bg-primary-color"></div>
 									<div className="flex flex-col py-5 justify-center items-center">
 										<h3 className="text-4xl font-black text-secondary-color">
@@ -217,7 +217,7 @@ const Home: NextPage = () => {
 												height={300}
 												className="rounded-2xl"
 											/>
-											<div className="absolute bottom-2 md:right-[2.5rem] lg:right-14 xl:right-9 text-lg text-white font-semibold">
+											<div className="absolute bottom-2 md:right-[2.5rem] lg:right-14 xl:right-20 text-lg text-white font-semibold">
 												<p>Bloom bar</p>
 											</div>
 										</div>
@@ -229,7 +229,7 @@ const Home: NextPage = () => {
 												height={300}
 												className="rounded-2xl"
 											/>
-											<div className="absolute bottom-2 md:right-[2.6rem] lg:right-16 xl:right-9 text-white text-lg font-semibold">
+											<div className="absolute bottom-2 md:right-[2.6rem] lg:right-16 xl:right-[5.5rem] text-white text-lg font-semibold">
 												<p>East End</p>
 											</div>
 										</div>
@@ -241,7 +241,7 @@ const Home: NextPage = () => {
 												height={300}
 												className="rounded-2xl"
 											/>
-											<div className="absolute bottom-2 md:right-12 lg:right-[4.5rem] xl:right-[2.9rem] text-lg text-white font-semibold">
+											<div className="absolute bottom-2 md:right-12 lg:right-[4.5rem] xl:right-[6rem] text-lg text-white font-semibold">
 												<p>Avenue</p>
 											</div>
 										</div>
@@ -253,7 +253,7 @@ const Home: NextPage = () => {
 												height={300}
 												className="rounded-2xl"
 											/>
-											<div className="absolute bottom-2 md:right-12 text-lg lg:right-[4.5rem] xl:right-[2.9rem] text-white font-semibold">
+											<div className="absolute bottom-2 md:right-12 text-lg lg:right-[4.5rem] xl:right-[5.5rem] text-white font-semibold">
 												<p>Scorch</p>
 											</div>
 										</div>
