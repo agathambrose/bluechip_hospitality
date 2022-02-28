@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Link from "next/link";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 
@@ -52,10 +53,14 @@ const ContactUS = () => {
 									<h2 className="title-font font-semibold text-white tracking-widest text-xs">
 										ADDRESS
 									</h2>
-									<p className="mt-1 text-gray-400">
-										House Number F330/2, Troas Street, Near Simbins Furniture,
-										Osu, Accra, Ghana.
-									</p>
+									<Link href={"https://goo.gl/maps/5SecDfNjXbr4MNi6A"} >
+										<a target={"_blank"}>
+											<p className="mt-1 text-gray-400">
+												House Number F330/2, Troas Street, Near Simbins
+												Furniture, Osu, Accra, Ghana.
+											</p>
+										</a>
+									</Link>
 								</div>
 								<div className="lg:w-2/3 px-6 mt-4 lg:mt-0">
 									<h2 className="title-font font-semibold text-white tracking-widest text-xs">
