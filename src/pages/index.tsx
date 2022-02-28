@@ -34,12 +34,12 @@ const Home: NextPage = () => {
 						</h3>
 					</div>
 				</div>
-				<div className="w-full bg-gradient-to-b from-transparent via-white to-white h-[200px] absolute md:block lg:block xl:block 2xl:block hidden -bottom-10 xl:bottom-80"></div>
+				<div className="w-full bg-gradient-to-b from-transparent via-white to-white h-[200px] absolute md:block lg:block xl:block 2xl:block hidden md:top-[28rem]"></div>
 				<div className="flex flex-col relative w-full h-full">
 					<div className="relative">
 						<div className="w-full from-transparent via-white to-white absolute -top-20">
 							<div className="flex-col relative hidden md:flex lg:flex">
-								<div className="here md:flex w-full justify-center pt-4 hidden">
+								{/* <div className="here md:flex w-full justify-center pt-4 hidden">
 									<div className="relative w-full flex lg:justify-center h-[400px]">
 										<div className="w-[300px] h-[300px] z-10 top-3 md:absolute md:right-6 md:block lg:hidden">
 											<Image
@@ -50,11 +50,11 @@ const Home: NextPage = () => {
 												className="rounded-2xl"
 											/>
 										</div>
-										<div className="lg:w-[300px] lg:h-[300px] xl:w-[450px] xl:h-[350px] z-10 top-2 lg:absolute md:right-4 lg:right-[6.6rem] xl:right-10 md:hidden lg:block rounded-2xl">
+										<div className="lg:w-[300px] lg:h-[300px] xl:w-[450px] xl:h-[350px] z-10 top-2 lg:absolute md:right-4 md:hidden lg:block rounded-2xl">
 											<Image
 												src={"/assets/images/gardenimage.png"}
 												alt="garden image"
-												width="400px"
+												width="350px"
 												height="350px"
 												className="rounded-2xl"
 											/>
@@ -97,6 +97,66 @@ const Home: NextPage = () => {
 													hospitality solutions for a variety of sustainability
 													challenges facing the hospitality industry in Ghana.
 												</p>
+											</div>
+										</div>
+									</div>
+								</div> */}
+								<div className="w-full flex justify-center">
+									<div className="md:flex w-4/5 justify-center items-center lg:px-10 md:px-3 pt-4 hidden">
+										<div className="relative flex lg:justify-center mr-8">
+											<div className="relative my-8 lg:my-0 lg:w-[400px] md:w-[350px] flex justify-center lg:h-[400px] md:h-[350px]">
+												<div className="lg:h-[400px] lg:w-[400px] md:w-[350px] md:h[380px] z-10 top-3 absolute">
+													<Image
+														src={"/assets/images/gardenimage.png"}
+														alt="garden image"
+														width="400px"
+														height="380px"
+														className="rounded-2xl absolute z-10"
+													/>
+													<div className="h-[100px] w-[150px] rounded-tl-2xl z-[1] absolute md:-top-2 lg:-top-2 md:-left-2 lg:-left-2 opacity-30 bg-gradient-to-tr from-primary-color via-primary-color to-white shadow-2xl shadow-white"></div>
+												</div>
+											</div>
+										</div>
+										<div className="flex flex-col space-y-2 justify-start lg:w-5/6">
+											<div className="flex justify-center w-full">
+												<div className="">
+													<div>
+														<h3 className="text-3xl md:text-4xl font-black text-secondary-color">
+															A Glimpse
+														</h3>
+														<h3 className="text-3xl md:text-4xl font-black text-secondary-color">
+															Inside Blue Chip
+														</h3>
+													</div>
+													<div className="flex items-center font-semibold space-x-2 text-primary-color my-2">
+														<div>
+															<p className="text-lg">Luxury</p>
+														</div>
+														<div className="flex items-center">
+															<div className="h-3 w-3 rounded-full bg-primary-color flex items-center"></div>
+														</div>
+														<div>
+															<p className="text-lg">Ambience</p>
+														</div>
+														<div>
+															<div className="h-3 w-3 rounded-full bg-primary-color flex items-center"></div>
+														</div>
+														<div>
+															<p className="text-lg">Great Dishes</p>
+														</div>
+													</div>
+													<div>
+														<p className="text-gray-600 lg:w-4/5 md:w-11/12 text-lg">
+															Blue Chip Hospitality Limited (“Blue Chip”) is a
+															hospitality and entertainment company in Ghana in
+															the hospitality industry and operating in the food
+															and beverage space. Blue Chip provides balanced
+															hospitality solutions for a variety of
+															sustainability challenges facing the hospitality
+															industry in Ghana.
+														</p>
+													</div>
+												</div>
 											</div>
 										</div>
 									</div>
