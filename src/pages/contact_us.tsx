@@ -53,9 +53,12 @@ const ContactUS = () => {
 									<h2 className="title-font font-semibold text-white tracking-widest text-xs">
 										ADDRESS
 									</h2>
-									<Link href={"https://goo.gl/maps/5SecDfNjXbr4MNi6A"} >
-										<a target={"_blank"}>
-											<p className="mt-1 text-gray-400">
+									<Link href={"https://goo.gl/maps/5SecDfNjXbr4MNi6A"}>
+										<a
+											target={"_blank"}
+											className="hover:text-white text-gray-400"
+										>
+											<p className="mt-1 text-gray-400 hover:text-white">
 												House Number F330/2, Troas Street, Near Simbins
 												Furniture, Osu, Accra, Ghana.
 											</p>
@@ -70,13 +73,13 @@ const ContactUS = () => {
 										href="mailto:ambrosia.spa.ng@gmail.com"
 										className="text-pink-400 leading-relaxed"
 									>
-										info@bluechip.com
+										kofi.maafo@bloombargh.com
 									</a>
 									<h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
 										PHONE
 									</h2>
 									<p className="leading-relaxed text-gray-300">
-										+ {""}(233) {""}12345678
+										+233 55 249 8524
 									</p>
 								</div>
 							</div>
