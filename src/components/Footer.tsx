@@ -9,7 +9,7 @@ const Footer = () => {
 					<div className="w-[100px] h-[100px] md:w-[170px] md:h-[170px]">
 						<Image
 							src={"/assets/images/footerlogo.png"}
-							alt="log image"
+							alt="logo image"
 							width={170}
 							height={170}
 						/>

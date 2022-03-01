@@ -38,17 +38,17 @@ const Navbar = (props: any) => {
 					<Link href={"/"}>
 						<a>
 							<Image
-								src={"/assets/images/Logo.svg"}
+								src={"/assets/images/Logo.png"}
 								alt="logo image"
-								width={50}
-								height={50}
+								width={60}
+								height={60}
 							/>
 						</a>
 					</Link>
 				</div>
 				<div className="lg:hidden block">
 					<Image
-						src={"/assets/images/Menu.svg"}
+						src={"/assets/images/Menu.png"}
 						alt="hamburger menu"
 						width={20}
 						height={20}
@@ -156,7 +156,7 @@ const Navbar = (props: any) => {
 												onClick={() => setOpen(false)}
 											>
 												<Image
-													src={"/assets/images/Cancel.svg"}
+													src={"/assets/images/Cancel.png"}
 													alt="cancel icon"
 													width={20}
 													height={20}

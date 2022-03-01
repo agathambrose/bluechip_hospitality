@@ -13,7 +13,7 @@ const Services = () => {
 			<div className="font-NotoSerif">
 				<div>
 					<div className="relative">
-						<div className="flex object-fill w-full h-[500px] bg-gray-500 bg-services-hero md:bg-services-hero-md lg:bg-services-hero-lg bg-no-repeat bg-cover justify-start relative"></div>
+						<div className="flex object-fill w-full h-[600px] bg-gray-500 bg-services-hero md:bg-services-hero-md lg:bg-services-hero-lg bg-no-repeat bg-cover justify-start relative"></div>
 						<div className="text-white absolute bottom-20 md:left-24 left-10">
 							<h1 className="font-black md:text-6xl text-4xl w-3/5">
 								Blue Chip Services
@@ -21,7 +21,7 @@ const Services = () => {
 						</div>
 					</div>
 					<div className="absolute top-0 md:left-20 left-5">
-						<div className="h-[430px] w-[220px] border-l border-b border-white "></div>
+						<div className="h-[530px] w-[220px] border-l border-b border-white "></div>
 					</div>
 				</div>
 				<div className="px-4 pt-4">
@@ -38,15 +38,15 @@ const Services = () => {
 								/>
 								<div className="h-[100px] w-[150px] rounded-tl-2xl z-[1] absolute -top-2 -left-3 opacity-30 bg-gradient-to-tr from-primary-color via-primary-color to-white shadow-2xl shadow-white"></div>
 							</div>
-							<div className="h-[600px] block md:hidden z-10 top-3 absolute">
+							<div className="h-[600px] block md:hidden top-0 absolute">
 								<Image
-									src={"/assets/images/pyramid.svg"}
+									src={"/assets/images/pyramid.png"}
 									alt="pyramid image"
-									width="600px"
-									height="650px"
+									width="400px"
+									height="350px"
 									className="rounded-2xl absolute z-10"
 								/>
-								<div className="h-[100px] w-[150px] rounded-tl-2xl z-[1] absolute top-1 -left-2 opacity-30 bg-gradient-to-tr from-primary-color via-primary-color to-white shadow-2xl shadow-white"></div>
+								<div className="h-[100px] w-[150px] rounded-tl-2xl z-[1] absolute -top-2 -left-2 opacity-30 bg-gradient-to-tr from-primary-color via-primary-color to-white shadow-2xl shadow-white"></div>
 							</div>
 						</div>
 						<div className="flex flex-col items-center space-y-2 justify-center">
@@ -71,7 +71,7 @@ const Services = () => {
 							<div className="relative my-8 lg:my-0 lg:w-[400px] md:w-[350px] flex justify-center lg:h-[400px] md:h-[350px]">
 								<div className="lg:h-[400px] lg:w-[400px] md:w-[350px] md:h[380px] z-10 top-3 absolute">
 									<Image
-										src={"/assets/images/pyramid.svg"}
+										src={"/assets/images/pyramid.png"}
 										alt="pyramid image"
 										width="400px"
 										height="380px"
@@ -81,7 +81,7 @@ const Services = () => {
 								</div>
 							</div>
 						</div>
-						<div className="flex flex-col space-y-2 justify-start lg:w-4/6 mr-2">
+						<div className="flex flex-col space-y-2 justify-start lg:w-4/6 mr-2 mt-3">
 							<h3 className="text-3xl md:text-4xl font-black text-secondary-color">
 								Conceptualization
 							</h3>
@@ -101,22 +101,13 @@ const Services = () => {
 				<div className="px-4 md:hidden block">
 					<div className="md:hidden">
 						<div className="relative my-8 px-5 md:px-0 lg:my-0 w-full flex justify-center h-[290px]">
-							<div className="h-[300px] w-[500px] md:block hidden z-10 top-3 absolute">
+
+							<div className="h-[600px] block md:hidden top-3 absolute">
 								<Image
-									src={"/assets/images/pyramid.png"}
-									alt="pyramid image"
-									width="500px"
-									height="300px"
-									className="rounded-2xl absolute z-10"
-								/>
-								<div className="h-[100px] w-[150px] rounded-tl-2xl z-[1] absolute -top-2 -left-3 opacity-30 bg-gradient-to-tr from-primary-color via-primary-color to-white shadow-2xl shadow-white"></div>
-							</div>
-							<div className="h-[600px] block md:hidden z-10 top-3 absolute">
-								<Image
-									src={"/assets/images/skyscrapers.svg"}
+									src={"/assets/images/skyscrapers.png"}
 									alt="skyscrapers image"
-									width="600px"
-									height="550px"
+									width="350px"
+									height="300px"
 									className="rounded-2xl absolute z-10"
 								/>
 								<div className="h-[100px] w-[150px] rounded-tl-2xl z-[1] absolute -top-2 -left-2 opacity-30 bg-gradient-to-tr from-primary-color via-primary-color to-white shadow-2xl shadow-white"></div>
@@ -163,7 +154,7 @@ const Services = () => {
 							<div className="relative my-8 lg:my-0 lg:w-[400px] md:w-[350px] flex justify-center lg:h-[400px] md:h-[350px]">
 								<div className="lg:h-[400px] lg:w-[400px] md:w-[350px] md:h[380px] z-10 top-3 absolute">
 									<Image
-										src={"/assets/images/skyscrapers.svg"}
+										src={"/assets/images/skyscrapers.png"}
 										alt="skyscrapers image"
 										width="400px"
 										height="380px"
@@ -190,13 +181,13 @@ const Services = () => {
 							</div>
 							<div className="h-[520px] block md:hidden z-10 top-3 absolute">
 								<Image
-									src={"/assets/images/foodplate.svg"}
+									src={"/assets/images/foodplate.png"}
 									alt="food plate image"
-									width="600px"
-									height="520px"
+									width="380px"
+									height="280px"
 									className="rounded-2xl absolute z-10"
 								/>
-								<div className="h-[100px] w-[150px] rounded-tl-2xl z-[1] absolute top-0 -left-2 bg-gradient-to-tr from-primary-color via-primary-color to-white"></div>
+								<div className="h-[100px] w-[150px] rounded-tl-2xl z-[1] absolute -top-2 -left-2 bg-gradient-to-tr from-primary-color via-primary-color to-white"></div>
 							</div>
 						</div>
 						<div className="flex flex-col items-center space-y-2 justify-center mt-6">
@@ -220,7 +211,7 @@ const Services = () => {
 							<div className="relative my-8 lg:my-0 lg:w-[400px] md:w-[350px] flex justify-center lg:h-[400px] md:h-[350px]">
 								<div className="lg:h-[400px] lg:w-[400px] md:w-[350px] md:h[380px] z-10 top-3 absolute">
 									<Image
-										src={"/assets/images/foodplate.svg"}
+										src={"/assets/images/foodplate.png"}
 										alt="food plate image"
 										width="400px"
 										height="380px"
@@ -255,8 +246,8 @@ const Services = () => {
 								<Image
 									src={"/assets/images/writingman.png"}
 									alt="writing man image"
-									width="600px"
-									height="550px"
+									width="380px"
+									height="300px"
 									className="rounded-2xl absolute z-10"
 								/>
 								<div className="h-[100px] w-[150px] rounded-tl-2xl z-[1] absolute -top-2 -left-2 opacity-30 bg-gradient-to-tr from-primary-color via-primary-color to-white shadow-2xl shadow-white"></div>
@@ -319,8 +310,8 @@ const Services = () => {
 								<Image
 									src={"/assets/images/brownchairs.png"}
 									alt="brown chairs image"
-									width="600px"
-									height="550px"
+									width="400px"
+									height="300px"
 									className="rounded-2xl absolute z-10"
 								/>
 								<div className="h-[100px] w-[150px] rounded-tl-2xl z-[1] absolute -top-2 -left-2 opacity-30 bg-gradient-to-tr from-primary-color via-primary-color to-white shadow-2xl shadow-white"></div>
