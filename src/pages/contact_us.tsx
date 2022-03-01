@@ -70,7 +70,7 @@ const ContactUS = () => {
 										EMAIL
 									</h2>
 									<a
-										href="mailto:ambrosia.spa.ng@gmail.com"
+										href="mailto:kofi.maafo@bloombargh.com"
 										className="text-pink-400 leading-relaxed"
 									>
 										kofi.maafo@bloombargh.com
