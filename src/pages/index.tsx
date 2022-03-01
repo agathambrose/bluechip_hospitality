@@ -39,68 +39,6 @@ const Home: NextPage = () => {
 					<div className="relative">
 						<div className="w-full from-transparent via-white to-white absolute -top-20">
 							<div className="flex-col relative hidden md:flex lg:flex">
-								{/* <div className="here md:flex w-full justify-center pt-4 hidden">
-									<div className="relative w-full flex lg:justify-center h-[400px]">
-										<div className="w-[300px] h-[300px] z-10 top-3 md:absolute md:right-6 md:block lg:hidden">
-											<Image
-												src={"/assets/images/gardenimage.png"}
-												alt="garden image"
-												width="270px"
-												height="330px"
-												className="rounded-2xl"
-											/>
-										</div>
-										<div className="lg:w-[300px] lg:h-[300px] xl:w-[450px] xl:h-[350px] z-10 top-2 lg:absolute md:right-4 md:hidden lg:block rounded-2xl">
-											<Image
-												src={"/assets/images/gardenimage.png"}
-												alt="garden image"
-												width="350px"
-												height="350px"
-												className="rounded-2xl"
-											/>
-										</div>
-										<div className="h-[100px] w-[150px]  rounded-tl-2xl z-[1] absolute top-0 lg:left-[13.5rem] xl:left-[13.8rem] md:left-12 opacity-30 bg-gradient-to-tr from-primary-color via-primary-color to-white shadow-2xl shadow-white"></div>
-									</div>
-									<div className="flex justify-center w-full">
-										<div className="">
-											<div>
-												<h3 className="text-3xl md:text-4xl font-black text-secondary-color">
-													A Glimpse
-												</h3>
-												<h3 className="text-3xl md:text-4xl font-black text-secondary-color">
-													Inside Blue Chip
-												</h3>
-											</div>
-											<div className="flex items-center font-semibold space-x-2 text-primary-color my-2">
-												<div>
-													<p className="text-lg">Luxury</p>
-												</div>
-												<div className="flex items-center">
-													<div className="h-3 w-3 rounded-full bg-primary-color flex items-center"></div>
-												</div>
-												<div>
-													<p className="text-lg">Ambience</p>
-												</div>
-												<div>
-													<div className="h-3 w-3 rounded-full bg-primary-color flex items-center"></div>
-												</div>
-												<div>
-													<p className="text-lg">Great Dishes</p>
-												</div>
-											</div>
-											<div>
-												<p className="text-gray-600 lg:w-4/5 md:w-11/12 text-lg">
-													Blue Chip Hospitality Limited (“Blue Chip”) is a
-													hospitality and entertainment company in Ghana in the
-													hospitality industry and operating in the food and
-													beverage space. Blue Chip provides balanced
-													hospitality solutions for a variety of sustainability
-													challenges facing the hospitality industry in Ghana.
-												</p>
-											</div>
-										</div>
-									</div>
-								</div> */}
 								<div className="w-full flex justify-center">
 									<div className="md:flex w-4/5 justify-center lg:px-10 md:px-3 pt-4 hidden">
 										<div className="relative flex lg:justify-center mr-8">
@@ -146,7 +84,7 @@ const Home: NextPage = () => {
 														</div>
 													</div>
 													<div>
-														<p className="text-gray-600 lg:w-4/5 text-lg">
+														<p className="text-gray-600 xl:4/5 text-lg">
 															Blue Chip Hospitality Limited (“Blue Chip”) is a
 															hospitality and entertainment company in Ghana in
 															the hospitality industry and operating in the food
@@ -161,20 +99,9 @@ const Home: NextPage = () => {
 										</div>
 									</div>
 								</div>
-								<div className="w-full flex justify-center relative">
-									<div className="hidden absolute xl:top-10 lg:left-28 xl:left-[14.5rem] md:left-20 md:-top-14 md:block text-gray-600 lg:w-2/5 md:w-2/5">
-										<h3 className="text-4xl font-black text-secondary-color">
-											Our Vision
-										</h3>
-										<p className="text-gray-600 lg:w-3/5 md:w-11/12 text-lg">
-											To be an African powerhouse in hospitality and
-											entertainment across Africa.
-										</p>
-									</div>
-								</div>
-								<div className="relative min-h-[500px] w-full justify-center">
-									<div className="w-3/5 bg-slate-300 flex justify-center">
-										{/* <div className="hidden absolute -top-10 xl:-top-2 lg:left-28 xl:left-[14.5rem] md:left-20 md:block text-gray-600 lg:w-2/5 md:w-2/5">
+								<div className="w-full flex justify-center h-[500px]">
+									<div className="w-4/5 md:w-11/12 lg:w-3/5 relative">
+										<div className="w-3/5 md:2/5 text-white absolute top-0 left-0">
 											<h3 className="text-4xl font-black text-secondary-color">
 												Our Vision
 											</h3>
@@ -182,7 +109,99 @@ const Home: NextPage = () => {
 												To be an African powerhouse in hospitality and
 												entertainment across Africa.
 											</p>
-										</div> */}
+										</div>
+										<div className="w-2/5 absolute right-0 bottom-0">
+											<h3 className="text-4xl font-black text-secondary-color">
+												Our Mission
+											</h3>
+											<p className="text-gray-600 text-lg">
+												To be the most professional hospitality establishments
+												in Ghana with excellent service ambiance and an
+												unbeatable experience.
+											</p>
+										</div>
+										<div className="h-[250px] w-[400px] absolute top-0 right-0 z-10">
+											<div className="relative md:flex hidden">
+												<div className="w-[350px] h-[300px] z-10 top-2 absolute md:left-14 md:block lg:hidden">
+													<Image
+														src={"/assets/images/darknight.png"}
+														alt="dark night image"
+														width="330px"
+														height="260px"
+														className="rounded-2xl"
+													/>
+												</div>
+												<div className="lg:w-[380px] lg:h-[250px] xl:w-[450px] xl:h-[300px] z-10 top-2 absolute md:hidden lg:block rounded-2xl">
+													<Image
+														src={"/assets/images/darknight.png"}
+														alt="dark night image"
+														width="400px"
+														height="250px"
+														className="rounded-2xl"
+													/>
+												</div>
+												<div className="h-[100px] w-[100px] rounded-tl-2xl z-[1] absolute top-1 lg:-left-1 md:left-[3.3rem] opacity-30 bg-gradient-to-tr from-primary-color via-primary-color to-white shadow-2xl shadow-white"></div>
+											</div>
+										</div>
+										<div className="h-[250px] w-[350px]  absolute bottom-0 left-0 z-20">
+											<div className="relative md:flex hidden">
+												<div className="w-[350px] h-[300px] z-10 top-0 absolute md:left-14 md:block lg:hidden">
+													<Image
+														src={"/assets/images/champagne.png"}
+														alt="champagne image"
+														width="330px"
+														height="260px"
+														className="rounded-2xl"
+													/>
+												</div>
+												<div className="lg:w-[380px] lg:h-[250px] xl:w-[450px] xl:h-[300px] z-10 top-0 absolute md:hidden lg:block rounded-2xl">
+													<Image
+														src={"/assets/images/champagne.png"}
+														alt="champagne image"
+														width="400px"
+														height="250px"
+														className="rounded-2xl"
+													/>
+												</div>
+												<div className="h-[100px] w-[100px] rounded-tl-2xl z-[1] absolute -top-1 md:left-[3.2rem] opacity-30 bg-gradient-to-tr from-primary-color via-primary-color to-white shadow-2xl shadow-white"></div>
+											</div>
+										</div>
+										<div className="h-[250px] w-[400px] absolute top-[6rem] z-10 left-64">
+											<div className="relative md:flex hidden">
+												<div className="w-[350px] h-[300px] z-10 -top-1 absolute md:left-0 md:block lg:hidden">
+													<Image
+														src={"/assets/images/barstools.png"}
+														alt="barstools image"
+														width="330px"
+														height="260px"
+														className="rounded-2xl"
+													/>
+												</div>
+												<div className="lg:w-[380px] lg:h-[250px] xl:w-[450px] xl:h-[300px] z-10 top-0 absolute md:hidden lg:block rounded-2xl">
+													<Image
+														src={"/assets/images/barstools.png"}
+														alt="barstools image"
+														width="400px"
+														height="250px"
+														className="rounded-2xl"
+													/>
+												</div>
+												<div className="h-[100px] w-[100px] rounded-tl-2xl z-[1] absolute -top-1 md:-top-2 md:-left-1 opacity-30 bg-gradient-to-tr from-primary-color via-primary-color to-white shadow-2xl shadow-white"></div>
+											</div>
+										</div>
+									</div>
+								</div>
+								{/* <div className="relative min-h-[500px] w-full justify-center"> */}
+								{/* <div className="w-4/5 bg-slate-800 flex justify-center"> */}
+								{/* <div className="hidden absolute top-1 left-0 md:block text-gray-600 lg:w-2/5 md:w-2/5">
+											<h3 className="text-4xl font-black text-secondary-color">
+												Our Vision
+											</h3>
+											<p className="text-gray-600 lg:w-3/5 md:w-11/12 text-lg">
+												To be an African powerhouse in hospitality and
+												entertainment across Africa.
+											</p>
+										</div>
 										<div className="absolute z-10  md:top-0 lg:-bottom-20 lg:right-[19rem] md:right-12">
 											<div className="relative h-[280px] w-[380px] md:flex hidden">
 												<div className="w-[350px] h-[300px] z-10 top-2 absolute md:left-14 md:block lg:hidden">
@@ -262,8 +281,7 @@ const Home: NextPage = () => {
 												unbeatable experience.
 											</p>
 										</div>
-									</div>
-								</div>
+								</div> */}
 								<div className="flex flex-col justify-center items-center xl:mt-8 py-8">
 									<div className="h-1 rounded-full w-[250px] bg-primary-color"></div>
 									<div className="flex flex-col py-5 justify-center items-center">
