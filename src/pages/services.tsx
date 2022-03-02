@@ -234,7 +234,7 @@ const Services = () => {
 										height="380px"
 										className="rounded-2xl absolute z-10"
 									/>
-									<div className="h-[100px] w-[150px] rounded-tl-2xl z-[1] absolute top-3 md:top-4 md:-left-2 bg-gradient-to-tr from-primary-color via-primary-color to-white shadow-white"></div>
+									<div className="h-[100px] w-[150px] rounded-tl-2xl z-[1] absolute top-3 md:top-4 lg:-top-2 md:-left-2 bg-gradient-to-tr from-primary-color via-primary-color to-white shadow-white"></div>
 								</div>
 							</div>
 						</div>
