@@ -53,7 +53,8 @@ const Footer = () => {
 				</div>
 			</div>
 			<div className="text-center pt-12">
-				<p>© 2022 Blue Chip Hospitality Limited. All rights reserved.</p>
+				<p>© 2022 Blue Chip Hospitality Limited.</p>
+				<p>All rights reserved.</p>
 			</div>
 		</div>
 	);

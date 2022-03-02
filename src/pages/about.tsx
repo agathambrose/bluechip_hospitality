@@ -1,9 +1,11 @@
+import Aos from "aos";
+import "aos/dist/aos.css";
 import Head from "next/head";
 import Image from "next/image";
-import { useRouter } from "next/router";
-import { useEffect } from "react";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
+import { useRouter } from "next/router";
+import { useEffect } from "react";
 
 const About = () => {
 	const router = useRouter();
@@ -18,7 +20,7 @@ const About = () => {
 			<Navbar about={"about"} />
 			<div className="font-NotoSerif">
 				<div>
-					<div className="relative">
+					<div className="relative" data-aos="fade-up">
 						<div className="flex object-fill w-full h-[600px] bg-gray-500 bg-about-hero md:bg-about-hero-md lg:bg-about-hero-lg bg-no-repeat bg-cover justify-start relative"></div>
 						<div className="text-white absolute bottom-20 md:left-24 left-10">
 							<h1 className="font-black md:text-6xl text-4xl w-3/5">
@@ -26,7 +28,10 @@ const About = () => {
 							</h1>
 						</div>
 					</div>
-					<div className="absolute top-0 md:left-20 left-5">
+					<div
+						className="absolute top-0 md:left-20 left-5"
+						data-aos="fade-down"
+					>
 						<div className="h-[530px] w-[220px] border-l border-b border-white"></div>
 						<p className="text-white font-semibold text-sm">
 							Here’s why we are the best option for you
@@ -35,7 +40,10 @@ const About = () => {
 				</div>
 				<div className="px-4 font-NotoSerif">
 					<div className="lg:hidden">
-						<div className="relative my-8 px-5 md:px-0 lg:my-0 w-full flex justify-center h-[330px]">
+						<div
+							className="relative my-8 px-5 md:px-0 lg:my-0 w-full flex justify-center h-[330px]"
+							data-aos="fade-in"
+						>
 							<div className="h-[300px] md:block hidden z-10 top-3 absolute">
 								<Image
 									src={"/assets/images/bluearea.png"}
@@ -57,7 +65,7 @@ const About = () => {
 								<div className="h-[100px] w-[150px] rounded-tl-2xl z-[1] absolute -top-2 -left-2 opacity-30 bg-gradient-to-tr from-primary-color via-primary-color to-white shadow-2xl shadow-white"></div>
 							</div>
 						</div>
-						<div className="flex justify-center">
+						<div className="flex justify-center" data-aos="fade-right">
 							<p className="text-gray-600 text-center md:w-10/12 md:text-lg text-sm mt-6 md:mt-0">
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tortor
 								neque, volutpat morbi quam. Vulputate augue tempus vehicula
@@ -71,7 +79,10 @@ const About = () => {
 							</p>
 						</div>
 					</div>
-					<div className="lg:flex w-full justify-center items-center px-10 pt-4 hidden">
+					<div
+						className="lg:flex w-full justify-center items-center px-10 pt-4 hidden"
+						data-aos="fade-in"
+					>
 						<div className="relative flex lg:justify-center mr-8">
 							<div className="relative my-8 lg:my-0 w-[400px] flex justify-center h-[400px]">
 								<div className="h-[400px] z-10 top-3 absolute">
@@ -86,7 +97,7 @@ const About = () => {
 								</div>
 							</div>
 						</div>
-						<div className="flex justify-start w-2/6">
+						<div className="flex justify-start w-2/6" data-aos="fade-left">
 							<p className="text-gray-600 text-lg">
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tortor
 								neque, volutpat morbi quam. Vulputate augue tempus vehicula
@@ -100,7 +111,10 @@ const About = () => {
 							</p>
 						</div>
 					</div>
-					<div className="flex flex-col relative justify-center items-center py-8">
+					<div
+						className="flex flex-col relative justify-center items-center py-8"
+						data-aos="fade-up"
+					>
 						<div className="flex flex-col p4-5 justify-center items-center">
 							<h3 className="text-3xl md:text-4xl font-black text-secondary-color">
 								Our Story
@@ -126,7 +140,9 @@ const About = () => {
 						<div className="h-[360px] lg:h-[350px] xl:h-[300px] w-[220px] bottom-5 md:top-20 lg:top-12 xl:top-5 absolute right-0 md:right-5 lg:right-20 border-r border-b border-black"></div>
 					</div>
 				</div>
-				<Footer />
+				<div data-aos="fade-up">
+					<Footer />
+				</div>
 			</div>
 		</div>
 	);

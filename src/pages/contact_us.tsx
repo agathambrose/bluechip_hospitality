@@ -11,8 +11,11 @@ const ContactUS = () => {
 			</Head>
 			<Navbar contact_us={"contact us"} />
 			<div className="font-NotoSerif">
-				<div className="relative">
-					<div className="flex object-fill w-full h-[500px] bg-gray-500 md:bg-contact-hero-md bg-contact-hero lg:bg-contact-hero-lg bg-no-repeat bg-cover justify-start relative"></div>
+				<div className="relative" data-aos="fade-up">
+					<div
+						className="flex object-fill w-full h-[500px] bg-gray-500 md:bg-contact-hero-md bg-contact-hero lg:bg-contact-hero-lg bg-no-repeat bg-cover justify-start relative"
+						data-aos="fade-in"
+					></div>
 					<div className="text-white absolute bottom-40 md:left-16 left-10">
 						<h1 className="font-black md:text-6xl text-4xl w-full">
 							Contact Us
@@ -32,7 +35,10 @@ const ContactUS = () => {
 					</div>
 				</div>
 				<div>
-					<div className="container px-5 py-24 flex sm:flex-nowrap flex-wrap justify-center items-center">
+					<div
+						className="container px-5 py-24 flex sm:flex-nowrap flex-wrap justify-center items-center"
+						data-aos="fade-left"
+					>
 						<div className="lg:w-2/4 shadow-md border border-gray-800 bg-gray-500 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-center relative">
 							<iframe
 								title="map"
@@ -85,7 +91,9 @@ const ContactUS = () => {
 							</div>
 						</div>
 					</div>
-					<Footer />
+					<div data-aos="fade-up">
+						<Footer />
+					</div>
 				</div>
 			</div>
 		</div>

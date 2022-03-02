@@ -12,17 +12,8 @@ const Portfolio = () => {
 			<Navbar portfolio={"portfolio"} />
 			<div className="font-NotoSerif">
 				<div>
-					<div className="relative">
+					<div className="relative" data-aos="fade-up">
 						<div className="flex w-full h-[600px] bg-gray-500 bg-portfolio-hero md:bg-portfolio-hero-md lg:bg-portfolio-hero-lg bg-no-repeat bg-cover justify-start relative"></div>
-						{/* <div className="h-[550px] w-full bg-gray-400">
-							<Image
-								src={"/assets/images/portfolio.svg"}
-								alt="portfolio image"
-								width={1400}
-								height={700}
-								className="object-fill"
-							/>
-						</div> */}
 						<div className="text-white absolute bottom-20 md:left-24 left-10">
 							<h1 className="font-black md:text-6xl text-4xl w-3/5">
 								Blue Chip Portfolio
@@ -35,7 +26,7 @@ const Portfolio = () => {
 				</div>
 				<div>
 					<div className="px-4 pt-4">
-						<div className="md:hidden">
+						<div className="md:hidden" data-aos="fade-in">
 							<div className="relative my-8 px-5 md:px-0 lg:my-0 w-full flex justify-center h-[250px]">
 								<div className="h-[250px] block md:hidden z-10 top-3 absolute">
 									<Image
@@ -70,7 +61,10 @@ const Portfolio = () => {
 								</p>
 							</div>
 						</div>
-						<div className="md:flex w-full justify-center items-center md:px-2 pt-4 hidden">
+						<div
+							className="md:flex w-full justify-center items-center md:px-2 pt-4 hidden"
+							data-aos="fade-in"
+						>
 							<div className="relative flex lg:justify-center mr-8">
 								<div className="relative my-8 lg:my-0 lg:w-[400px] md:w-[350px] flex justify-center lg:h-[350px] md:h-[350px]">
 									<div className="lg:h-[320px] lg:w-[400px] md:w-[300px] md:h[360px] z-10 top-3 absolute">
@@ -110,7 +104,7 @@ const Portfolio = () => {
 					</div>
 
 					<div className="px-4 md:hidden block">
-						<div className="md:hidden">
+						<div className="md:hidden" data-aos="fade-in">
 							<div className="relative my-8 px-5 md:px-0 lg:my-0 w-full flex justify-center h-[290px]">
 								<div className="h-[600px] block md:hidden z-10 top-3 absolute">
 									<Image
@@ -146,7 +140,10 @@ const Portfolio = () => {
 							</div>
 						</div>
 					</div>
-					<div className="px-4 md:block hidden py-12 relative">
+					<div
+						className="px-4 md:block hidden py-12 relative"
+						data-aos="fade-right"
+					>
 						<div className="md:flex w-full justify-center items-center lg:px-10 md:px-3 pt-4 hidden">
 							<div className="flex flex-col mr-8 space-y-2 justify-start lg:w-4/6">
 								<h3 className="text-3xl md:text-4xl font-black text-secondary-color">
@@ -186,7 +183,7 @@ const Portfolio = () => {
 						</div>
 					</div>
 					<div className="px-4 pt-4">
-						<div className="md:hidden">
+						<div className="md:hidden" data-aos="fade-up">
 							<div className="relative my-8 px-5 md:px-0 lg:my-0 w-full flex justify-center h-[250px]">
 								<div className="h-[250px] block md:hidden z-10 top-3 absolute">
 									<Image
@@ -220,7 +217,10 @@ const Portfolio = () => {
 								</p>
 							</div>
 						</div>
-						<div className="md:flex w-full justify-center items-center md:px-2 hidden">
+						<div
+							className="md:flex w-full justify-center items-center md:px-2 hidden"
+							data-aos="fade-up"
+						>
 							<div className="relative flex lg:justify-center mr-8">
 								<div className="relative my-8 lg:my-0 lg:w-[400px] md:w-[350px] flex justify-center lg:h-[350px] md:h-[350px]">
 									<div className="lg:h-[320px] lg:w-[400px] md:w-[350px] md:h[360px] z-10 top-3 absolute">
@@ -258,7 +258,7 @@ const Portfolio = () => {
 						</div>
 					</div>
 					<div className="px-4 md:hidden block">
-						<div className="md:hidden mb-8">
+						<div className="md:hidden mb-8" data-aos="fade-down">
 							<div className="relative my-8 px-5 md:px-0 lg:my-0 w-full flex justify-center h-[290px]">
 								<div className="h-[300px] w-[500px] md:block hidden z-10 top-3 absolute">
 									<Image
@@ -301,7 +301,10 @@ const Portfolio = () => {
 						</div>
 					</div>
 					<div className="px-2 md:block hidden my-16">
-						<div className="md:flex w-full justify-center items-center lg:px-10 md:px-3 pt-4 hidden">
+						<div
+							className="md:flex w-full justify-center items-center lg:px-10 md:px-3 pt-4 hidden"
+							data-aos="fade-right-up"
+						>
 							<div className="flex flex-col mr-8 space-y-2 justify-start lg:w-4/6">
 								<h3 className="text-3xl md:text-4xl font-black text-secondary-color">
 									Scorch
@@ -336,7 +339,9 @@ const Portfolio = () => {
 						</div>
 					</div>
 				</div>
-				<Footer />
+				<div data-aos="fade-up">
+					<Footer />
+				</div>
 			</div>
 		</div>
 	);

@@ -1,21 +1,10 @@
-import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
 import Navbar from "../components/Navbar";
-import { useEffect } from "react";
-import { useRouter } from "next/router";
 import Footer from "../components/Footer";
+import type { NextPage } from "next";
 
 const Home: NextPage = () => {
-	const router = useRouter();
-	useEffect(() => {
-		router.prefetch("/");
-		router.prefetch("/about");
-		router.prefetch("/services");
-		router.prefetch("/portfolio");
-		router.prefetch("/contact_us");
-		router.prefetch("/team");
-	});
 	return (
 		<div>
 			<Head>
@@ -23,7 +12,7 @@ const Home: NextPage = () => {
 			</Head>
 			<Navbar home={"home"} />
 			<div className="font-NotoSerif">
-				<div>
+				<div data-aos="fade-up">
 					<div className="flex object-fill w-full h-[600px] bg-gray-500 bg-home-hero md:bg-home-hero-md lg:bg-home-hero-lg bg-no-repeat bg-cover justify-start relative"></div>
 					<div className="text-white absolute top-[22rem] md:left-12 left-5">
 						<h1 className="font-black text-4xl md:text-5xl w-3/5">
@@ -39,7 +28,7 @@ const Home: NextPage = () => {
 					<div className="relative">
 						<div className="w-full from-transparent via-white to-white absolute -top-20">
 							<div className="flex-col relative hidden md:flex lg:flex">
-								<div className="w-full flex justify-center">
+								<div className="w-full flex justify-center" data-aos="fade-up">
 									<div className="md:flex w-4/5 justify-center lg:px-10 md:px-3 pt-4 hidden">
 										<div className="relative flex lg:justify-center mr-8">
 											<div className="relative my-8 lg:my-0 lg:w-[400px] md:w-[260px] flex justify-center lg:h-[400px] md:h-[350px]">
@@ -99,9 +88,15 @@ const Home: NextPage = () => {
 										</div>
 									</div>
 								</div>
-								<div className="w-full flex justify-center h-[500px]">
+								<div
+									className="w-full flex justify-center h-[500px]"
+									data-aos="fade-in"
+								>
 									<div className="w-4/5 md:w-11/12 lg:w-3/5 relative">
-										<div className="w-3/5 md:2/5 text-white absolute top-0 left-0">
+										<div
+											className="w-3/5 md:2/5 text-white absolute top-0 left-0"
+											data-aos="fade-down-left"
+										>
 											<h3 className="text-4xl font-black text-secondary-color">
 												Our Vision
 											</h3>
@@ -110,7 +105,10 @@ const Home: NextPage = () => {
 												entertainment across Africa.
 											</p>
 										</div>
-										<div className="w-2/5 absolute right-0 bottom-0">
+										<div
+											className="w-2/5 absolute right-0 bottom-0"
+											data-aos="fade-up-right"
+										>
 											<h3 className="text-4xl font-black text-secondary-color">
 												Our Mission
 											</h3>
@@ -120,7 +118,10 @@ const Home: NextPage = () => {
 												unbeatable experience.
 											</p>
 										</div>
-										<div className="h-[250px] w-[400px] absolute top-0 right-0 z-10">
+										<div
+											className="h-[250px] w-[400px] absolute top-0 right-0 z-10"
+											data-aos="fade-right"
+										>
 											<div className="relative md:flex hidden">
 												<div className="w-[350px] h-[300px] z-10 top-2 absolute md:left-14 md:block lg:hidden">
 													<Image
@@ -143,7 +144,10 @@ const Home: NextPage = () => {
 												<div className="h-[100px] w-[100px] rounded-tl-2xl z-[1] absolute top-1 lg:-left-1 md:left-[3.3rem] opacity-30 bg-gradient-to-tr from-primary-color via-primary-color to-white shadow-2xl shadow-white"></div>
 											</div>
 										</div>
-										<div className="h-[250px] w-[350px]  absolute bottom-0 left-0 z-20">
+										<div
+											className="h-[250px] w-[350px]  absolute bottom-0 left-0 z-20"
+											data-aos="fade-left"
+										>
 											<div className="relative md:flex hidden">
 												<div className="w-[350px] h-[300px] z-10 top-0 absolute md:left-14 md:block lg:hidden">
 													<Image
@@ -163,10 +167,13 @@ const Home: NextPage = () => {
 														className="rounded-2xl"
 													/>
 												</div>
-												<div className="h-[100px] w-[100px] rounded-tl-2xl z-[1] absolute -top-1 md:left-[3.2rem] opacity-30 bg-gradient-to-tr from-primary-color via-primary-color to-white shadow-2xl shadow-white"></div>
+												<div className="h-[100px] w-[100px] rounded-tl-2xl z-[1] absolute -top-1 lg:-left-1 md:left-[3.3rem] opacity-30 bg-gradient-to-tr from-primary-color via-primary-color to-white shadow-2xl shadow-white"></div>
 											</div>
 										</div>
-										<div className="h-[250px] w-[400px] absolute top-[6rem] z-10 left-64">
+										<div
+											className="h-[250px] w-[400px] absolute top-[6rem] z-10 left-64"
+											data-aos="fade-in"
+										>
 											<div className="relative md:flex hidden">
 												<div className="w-[350px] h-[300px] z-10 -top-1 absolute md:left-0 md:block lg:hidden">
 													<Image
@@ -186,104 +193,16 @@ const Home: NextPage = () => {
 														className="rounded-2xl"
 													/>
 												</div>
-												<div className="h-[100px] w-[100px] rounded-tl-2xl z-[1] absolute -top-1 md:-top-2 md:-left-1 opacity-30 bg-gradient-to-tr from-primary-color via-primary-color to-white shadow-2xl shadow-white"></div>
+												<div className="h-[100px] w-[100px] rounded-tl-2xl z-[1] absolute -top-1 md:-top-2 lg:-top-1 md:-left-1 opacity-30 bg-gradient-to-tr from-primary-color via-primary-color to-white shadow-2xl shadow-white"></div>
 											</div>
 										</div>
 									</div>
 								</div>
-								{/* <div className="relative min-h-[500px] w-full justify-center"> */}
-								{/* <div className="w-4/5 bg-slate-800 flex justify-center"> */}
-								{/* <div className="hidden absolute top-1 left-0 md:block text-gray-600 lg:w-2/5 md:w-2/5">
-											<h3 className="text-4xl font-black text-secondary-color">
-												Our Vision
-											</h3>
-											<p className="text-gray-600 lg:w-3/5 md:w-11/12 text-lg">
-												To be an African powerhouse in hospitality and
-												entertainment across Africa.
-											</p>
-										</div>
-										<div className="absolute z-10  md:top-0 lg:-bottom-20 lg:right-[19rem] md:right-12">
-											<div className="relative h-[280px] w-[380px] md:flex hidden">
-												<div className="w-[350px] h-[300px] z-10 top-2 absolute md:left-14 md:block lg:hidden">
-													<Image
-														src={"/assets/images/darknight.png"}
-														alt="dark night image"
-														width="330px"
-														height="260px"
-														className="rounded-2xl"
-													/>
-												</div>
-												<div className="lg:w-[380px] lg:h-[250px] xl:w-[450px] xl:h-[300px] z-10 top-2 absolute lg:left-48 xl:left-10 md:hidden lg:block rounded-2xl">
-													<Image
-														src={"/assets/images/darknight.png"}
-														alt="dark night image"
-														width="450px"
-														height="300px"
-														className="rounded-2xl"
-													/>
-												</div>
-												<div className="h-[100px] w-[100px] rounded-tl-2xl z-[1] absolute top-0 md:left-12 lg:left-[11.5rem] xl:left-[2rem] opacity-30 bg-gradient-to-tr from-primary-color via-primary-color to-white shadow-2xl shadow-white"></div>
-											</div>
-										</div>
-										<div className="absolute z-20 md:top-36 lg:top-32 lg:left-80 md:left-36">
-											<div className="relative h-[280px] w-[400px] md:flex hidden">
-												<div className="w-[300px] h-[300px] z-10 top-2 absolute md:left-14 md:block lg:hidden">
-													<Image
-														src={"/assets/images/barstools.png"}
-														alt="barstools image"
-														width="280px"
-														height="240px"
-														className="rounded-2xl"
-													/>
-												</div>
-												<div className="lg:w-[350px] lg:h-[250px] xl:w-[380px] xl:h-[300px] z-10 top-2 lg:-top-5 xl:top-2 absolute lg:-left-12 xl:left-36 md:hidden lg:block rounded-2xl">
-													<Image
-														src={"/assets/images/barstools.png"}
-														alt="barstools image"
-														width="400px"
-														height="300px"
-														className="rounded-2xl"
-													/>
-												</div>
-												<div className="h-[100px] w-[100px] rounded-tl-2xl z-[1] absolute top-0 lg:-top-7 xl:top-0 xl:left-[8.5rem] lg:-left-14 md:left-12 opacity-30 bg-gradient-to-tr from-primary-color via-primary-color to-white shadow-2xl shadow-white"></div>
-											</div>
-										</div>
-										<div className="absolute z-30 md:top-64 lg:-bottom-80 lg:left-[10.5rem] md:left-8">
-											<div className="relative h-[280px] w-[380px] md:flex hidden">
-												<div className="w-[300px] h-[300px] z-10 top-2 absolute md:left-14 md:block lg:hidden">
-													<Image
-														src={"/assets/images/champagne.png"}
-														alt="champagne image"
-														width="230px"
-														height="200px"
-														className="rounded-2xl"
-													/>
-												</div>
-												<div className="lg:w-[280px] lg:h-[250px] xl:w-[340px] xl:h-[260px] z-10 top-2 lg:-top-6 xl:top-2 absolute lg:-left-16 xl:left-14 md:hidden lg:block rounded-2xl">
-													<Image
-														src={"/assets/images/champagne.png"}
-														alt="champagne image"
-														width="340px"
-														height="260px"
-														className="rounded-2xl"
-													/>
-												</div>
-												<div className="h-[100px] w-[100px] rounded-tl-2xl z-[1] absolute top-0 lg:-top-8 xl:top-0 lg:-left-[4.5rem] xl:left-12 md:left-12 opacity-30 bg-gradient-to-tr from-primary-color via-primary-color to-white shadow-2xl shadow-white"></div>
-											</div>
-										</div>
-										<div className="hidden absolute lg:bottom-5 md:bottom-12 md:right-2 lg:right-2 xl:right-0 md:block text-gray-600 lg:w-2/6 xl:w-2/5 md:w-1/3">
-											<h3 className="text-4xl font-black text-secondary-color">
-												Our Mission
-											</h3>
-											<p className="text-gray-600 lg:w-3/5 md:w-11/12 text-lg">
-												To be the most professional hospitality establishments
-												in Ghana with excellent service ambiance and an
-												unbeatable experience.
-											</p>
-										</div>
-								</div> */}
 								<div className="flex flex-col justify-center items-center xl:mt-8 py-8">
-									<div className="h-1 rounded-full w-[250px] bg-primary-color"></div>
+									<div
+										className="h-1 rounded-full w-[250px] bg-primary-color"
+										data-aos="fade-left"
+									></div>
 									<div className="flex flex-col py-5 justify-center items-center">
 										<h3 className="text-4xl font-black text-secondary-color">
 											Our Brands
@@ -294,9 +213,15 @@ const Home: NextPage = () => {
 											iaculis mattis quis aliquet eget.
 										</p>
 									</div>
-									<div className="rounded-full h-1 w-[200px] bg-primary-color"></div>
+									<div
+										className="rounded-full h-1 w-[200px] bg-primary-color"
+										data-aos="fade-right"
+									></div>
 								</div>
-								<div className="flex flex-col justify-center items-center">
+								<div
+									className="flex flex-col justify-center items-center"
+									data-aos="fade-in"
+								>
 									<div className="flex justify-center items-center py-5">
 										<div className="w-[150px] lg:w-[200px] xl:w-[250px] xl:h-[300px] lg:h-[250px] rounded-md flex relative mr-4">
 											<Image
@@ -347,14 +272,19 @@ const Home: NextPage = () => {
 											</div>
 										</div>
 									</div>
-									<div className="rounded-full h-1 w-[400px] bg-primary-color my-8"></div>
+									<div
+										className="rounded-full h-1 w-[400px] bg-primary-color my-8"
+										data-aos="fade-left"
+									></div>
 								</div>
-								<Footer />
+								<div data-aos="fade-up">
+									<Footer />
+								</div>
 							</div>
 						</div>
 						<div className="px-4 py-5 font-NotoSerif block md:hidden">
 							<div className="flex justify-center w-full">
-								<div>
+								<div data-aos="fade-up">
 									<div>
 										<h3 className="text-4xl font-black text-secondary-color">
 											A Glimpse
@@ -380,7 +310,7 @@ const Home: NextPage = () => {
 											<p className="text-base">Great Dishes</p>
 										</div>
 									</div>
-									<div>
+									<div data-aos="fade-right">
 										<p className="text-gray-600 lg:w-3/5 md:w-11/12 text-base">
 											Blue Chip Hospitality Limited (“Blue Chip”) is a
 											hospitality and entertainment company in Ghana in the
@@ -393,7 +323,10 @@ const Home: NextPage = () => {
 								</div>
 							</div>
 							<div className="flex justify-center mt-10">
-								<div className="relative h-[330px] w-[270px]">
+								<div
+									className="relative h-[330px] w-[270px]"
+									data-aos="fade-in"
+								>
 									<div className=" z-10 absolute top-2 -left-0">
 										<Image
 											src={"/assets/images/gardenimage.png"}
@@ -407,17 +340,26 @@ const Home: NextPage = () => {
 								</div>
 							</div>
 							<div className="text-gray-600 my-8">
-								<h3 className="text-3xl font-black text-secondary-color">
+								<h3
+									className="text-3xl font-black text-secondary-color"
+									data-aos="fade-right"
+								>
 									Our Vision
 								</h3>
-								<p className="text-gray-600 lg:w-3/5 md:w-11/12 text-base">
+								<p
+									className="text-gray-600 lg:w-3/5 md:w-11/12 text-base"
+									data-aos="fade-right"
+								>
 									To be an African powerhouse in hospitality and entertainment
 									across Africa.
 								</p>
 							</div>
 							<div className="h-[300px]">
 								<div className="flex justify-end absolute right-3">
-									<div className="relative h-[250px] w-[210px]">
+									<div
+										className="relative h-[250px] w-[210px]"
+										data-aos="fade-in"
+									>
 										<div className="z-10 absolute top-2 -left-0">
 											<Image
 												src={"/assets/images/darknight.png"}
@@ -431,7 +373,10 @@ const Home: NextPage = () => {
 									</div>
 								</div>
 								<div className="flex justify-start absolute left-5 mt-20">
-									<div className="relative h-[250px] w-[210px]">
+									<div
+										className="relative h-[250px] w-[210px]"
+										data-aos="fade-in"
+									>
 										<div className="z-10 absolute top-2 -left-0">
 											<Image
 												src={"/assets/images/barstools.png"}
@@ -446,10 +391,16 @@ const Home: NextPage = () => {
 								</div>
 							</div>
 							<div className="text-gray-600 my-8">
-								<h3 className="text-3xl text-center font-black text-secondary-color mb-2">
+								<h3
+									className="text-3xl text-center font-black text-secondary-color mb-2"
+									data-aos="fade-in"
+								>
 									Our Mission
 								</h3>
-								<p className="text-gray-600 text-center text-base">
+								<p
+									className="text-gray-600 text-center text-base"
+									data-aos="fade-in"
+								>
 									To be the most professional hospitality establishments in
 									Ghana with excellent service ambiance and an unbeatable
 									experience.
@@ -457,7 +408,10 @@ const Home: NextPage = () => {
 							</div>
 							<div className="flex flex-col justify-center items-center py-4">
 								<div className="h-1 rounded-full w-[200px] bg-primary-color"></div>
-								<div className="flex flex-col py-5 justify-center items-center">
+								<div
+									className="flex flex-col py-5 justify-center items-center"
+									data-aos="fade-in"
+								>
 									<h3 className="text-3xl font-black text-secondary-color">
 										Our Brands
 									</h3>
@@ -470,7 +424,10 @@ const Home: NextPage = () => {
 								<div className="rounded-full h-1 w-[150px] bg-primary-color"></div>
 							</div>
 							<div className="w-full flex flex-col justify-center items-center space-y-4 mt-4">
-								<div className="w-[200px] rounded-md flex relative">
+								<div
+									className="w-[200px] rounded-md flex relative"
+									data-aos="fade-in"
+								>
 									<Image
 										src={"/assets/images/bloombar.png"}
 										alt="bloombar image"
@@ -482,7 +439,10 @@ const Home: NextPage = () => {
 										<p>Bloom bar</p>
 									</div>
 								</div>
-								<div className="w-[200px] rounded-md flex relative">
+								<div
+									className="w-[200px] rounded-md flex relative"
+									data-aos="fade-right"
+								>
 									<Image
 										src={"/assets/images/eastend.png"}
 										alt="eastend image"
@@ -494,7 +454,10 @@ const Home: NextPage = () => {
 										<p>East End</p>
 									</div>
 								</div>
-								<div className="w-[200px] rounded-md flex relative">
+								<div
+									className="w-[200px] rounded-md flex relative"
+									data-aos="fade-in"
+								>
 									<Image
 										src={"/assets/images/avenue.png"}
 										alt="avenue image"
@@ -506,7 +469,10 @@ const Home: NextPage = () => {
 										<p>Avenue</p>
 									</div>
 								</div>
-								<div className="w-[200px] rounded-md flex relative">
+								<div
+									className="w-[200px] rounded-md flex relative"
+									data-aos="fade-up"
+								>
 									<Image
 										src={"/assets/images/scorch.png"}
 										alt="scorch image"
@@ -521,7 +487,7 @@ const Home: NextPage = () => {
 								<div className="rounded-full h-1 w-[200px] bg-primary-color"></div>
 							</div>
 						</div>
-						<div className="md:hidden block">
+						<div className="md:hidden block" data-aos="fade-in">
 							<Footer />
 						</div>
 					</div>
