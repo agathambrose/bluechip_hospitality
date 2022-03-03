@@ -55,8 +55,8 @@ const ContactUS = () => {
 								style={{ filter: "grayscale(1) contrast(1.2) opacity(0.16)" }}
 							></iframe>
 							<div className="bg-secondary-color relative flex flex-wrap py-6 rounded shadow-md">
-								<div className="lg:w-1/2 px-6">
-									<h2 className="title-font font-semibold text-white tracking-widest text-xs">
+								<div className="px-6">
+									<h2 className="title-font font-semibold text-white tracking-widest text-xs lg:text-xl">
 										ADDRESS
 									</h2>
 									<Link href={"https://goo.gl/maps/5SecDfNjXbr4MNi6A"}>
@@ -64,7 +64,7 @@ const ContactUS = () => {
 											target={"_blank"}
 											className="hover:text-white text-gray-400"
 										>
-											<p className="mt-1 text-gray-400 hover:text-white">
+											<p className="mt-1 text-gray-400 hover:text-white lg:text-lg">
 												House Number F330/2, Troas Street, Near Simbins
 												Furniture, Osu, Accra, Ghana.
 											</p>
@@ -72,19 +72,19 @@ const ContactUS = () => {
 									</Link>
 								</div>
 								<div className="lg:w-2/3 px-6 mt-4 lg:mt-0">
-									<h2 className="title-font font-semibold text-white tracking-widest text-xs">
+									<h2 className="title-font font-semibold text-white tracking-widest text-xs lg:text-xl mt-3">
 										EMAIL
 									</h2>
 									<a
 										href="mailto:kofi.maafo@bloombargh.com"
-										className="text-pink-400 leading-relaxed"
+										className="text-pink-400 leading-relaxed lg:text-lg"
 									>
 										kofi.maafo@bloombargh.com
 									</a>
-									<h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
+									<h2 className="title-font font-semibold text-white tracking-widest text-xs mt-3 lg:text-xl">
 										PHONE
 									</h2>
-									<p className="leading-relaxed text-gray-300">
+									<p className="leading-relaxed text-gray-300 lg:text-lg">
 										+233 55 249 8524
 									</p>
 								</div>
