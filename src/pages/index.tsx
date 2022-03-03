@@ -106,7 +106,7 @@ const Home: NextPage = () => {
 											</p>
 										</div>
 										<div
-											className="w-2/5 absolute right-0 bottom-14"
+											className="w-2/5 lg:w-4/12 absolute right-0 bottom-14"
 											data-aos="fade-up-right"
 										>
 											<h3 className="text-4xl font-black text-secondary-color">
