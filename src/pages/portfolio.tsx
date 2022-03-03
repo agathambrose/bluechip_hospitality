@@ -15,7 +15,7 @@ const Portfolio = () => {
 					<div className="relative" data-aos="fade-up">
 						<div className="flex w-full h-[600px] bg-gray-500 bg-portfolio-hero md:bg-portfolio-hero-md lg:bg-portfolio-hero-lg bg-no-repeat bg-cover justify-start relative"></div>
 						<div className="text-white absolute bottom-20 md:left-24 left-10">
-							<h1 className="font-black md:text-6xl text-4xl w-3/5">
+							<h1 className="font-black md:text-6xl lg:text-7xl text-4xl w-3/5">
 								Blue Chip Portfolio
 							</h1>
 						</div>
@@ -83,7 +83,7 @@ const Portfolio = () => {
 								<h3 className="text-3xl md:text-4xl font-black text-secondary-color">
 									Bloom Bar
 								</h3>
-								<p className="text-gray-600 text-lg">
+								<p className="text-gray-600 text-lg lg:text-2xl">
 									Bloom Bar Limited, incorporated in November 2016, is currently
 									Blue Chip’s most established and successful brand since it
 									started operations in 2017. Bloom Bar is an affordable luxury
@@ -149,7 +149,7 @@ const Portfolio = () => {
 								<h3 className="text-3xl md:text-4xl font-black text-secondary-color">
 									East End
 								</h3>
-								<p className="text-gray-600 text-lg">
+								<p className="text-gray-600 text-lg lg:text-2xl">
 									East End Hospitality Limited, incorporated in September 2020,
 									is a bistro restaurant in Ghana and the second establishment
 									of Blue Chip. East End bistro pairs cuisine and a unique
@@ -239,7 +239,7 @@ const Portfolio = () => {
 								<h3 className="text-3xl md:text-4xl font-black text-secondary-color">
 									Avenue
 								</h3>
-								<p className="text-gray-600 text-lg">
+								<p className="text-gray-600 text-lg lg:text-2xl">
 									Avenue Entertainment Centre Limited, incorporated in March
 									2020, is a live entertainment restaurant/bar and will be Blue
 									Chip’s third establishment. The Avenue brand focuses on
@@ -309,7 +309,7 @@ const Portfolio = () => {
 								<h3 className="text-3xl md:text-4xl font-black text-secondary-color">
 									Scorch
 								</h3>
-								<p className="text-gray-600 text-lg">
+								<p className="text-gray-600 text-lg lg:text-2xl">
 									Scorch Restaurant Limited, incorporated in March 2020, is a
 									rodizio concept restaurant and will be Blue Chip’s forth
 									establishment. Scorch is a rodizio concept restaurant with a

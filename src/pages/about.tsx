@@ -23,7 +23,7 @@ const About = () => {
 					<div className="relative" data-aos="fade-up">
 						<div className="flex object-fill w-full h-[600px] bg-gray-500 bg-about-hero md:bg-about-hero-md lg:bg-about-hero-lg bg-no-repeat bg-cover justify-start relative"></div>
 						<div className="text-white absolute bottom-20 md:left-24 left-10">
-							<h1 className="font-black md:text-6xl text-4xl w-3/5">
+							<h1 className="font-black md:text-6xl xl:text-7xl text-4xl w-3/5">
 								About Blue Chip
 							</h1>
 						</div>
@@ -33,7 +33,7 @@ const About = () => {
 						data-aos="fade-down"
 					>
 						<div className="h-[530px] w-[220px] border-l border-b border-white"></div>
-						<p className="text-white font-semibold text-sm">
+						<p className="text-white font-semibold text-sm md:text-lg">
 							Here’s why we are the best option for you
 						</p>
 					</div>
@@ -66,7 +66,7 @@ const About = () => {
 							</div>
 						</div>
 						<div className="flex justify-center" data-aos="fade-right">
-							<p className="text-gray-600 text-center md:w-10/12 md:text-lg text-sm mt-6 md:mt-0">
+							<p className="text-gray-600 text-center md:w-10/12 md:text-xl text-sm mt-6 md:mt-0">
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tortor
 								neque, volutpat morbi quam. Vulputate augue tempus vehicula
 								euismod penatibus velit, eget. Egestas diam gravida tempus,
@@ -98,7 +98,7 @@ const About = () => {
 							</div>
 						</div>
 						<div className="flex justify-start w-2/6" data-aos="fade-left">
-							<p className="text-gray-600 text-lg">
+							<p className="text-gray-600 text-lg lg:text-xl">
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tortor
 								neque, volutpat morbi quam. Vulputate augue tempus vehicula
 								euismod penatibus velit, eget. Egestas diam gravida tempus,
@@ -119,7 +119,7 @@ const About = () => {
 							<h3 className="text-3xl md:text-4xl font-black text-secondary-color">
 								Our Story
 							</h3>
-							<p className="text-gray-600 text-center mt-4 lg:w-3/5 md:w-10/12 md:text-lg text-sm">
+							<p className="text-gray-600 text-center mt-4 lg:w-3/5 md:w-10/12 md:text-lg text-sm lg:text-xl">
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 								Bibendum amet, hendrerit in sollicitudin faucibus aenean
 								volutpat in vel. Pretium neque cursus scelerisque aliquet

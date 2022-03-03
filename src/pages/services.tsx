@@ -15,7 +15,7 @@ const Services = () => {
 					<div className="relative" data-aos="fade-up">
 						<div className="flex object-fill w-full h-[600px] bg-gray-500 bg-services-hero md:bg-services-hero-md lg:bg-services-hero-lg bg-no-repeat bg-cover justify-start relative"></div>
 						<div className="text-white absolute bottom-20 md:left-24 left-10">
-							<h1 className="font-black md:text-6xl text-4xl w-3/5">
+							<h1 className="font-black md:text-6xl lg:text-7xl text-4xl w-3/5">
 								Blue Chip Services
 							</h1>
 						</div>
@@ -94,7 +94,7 @@ const Services = () => {
 							<h3 className="text-3xl md:text-4xl font-black text-secondary-color">
 								Conceptualization
 							</h3>
-							<p className="text-gray-600 text-lg">
+							<p className="text-gray-600 text-lg lg:text-2xl">
 								Blue Chip Hospitality has an experienced team that develops
 								hospitality concepts with emphasis on bar and restaurant. With
 								our service on developing concepts, we engage our clients to
@@ -149,7 +149,7 @@ const Services = () => {
 							<h3 className="text-3xl md:text-4xl font-black text-secondary-color">
 								Construction
 							</h3>
-							<p className="text-gray-600 text-lg">
+							<p className="text-gray-600 text-lg lg:text-2xl">
 								We have a team of builders and interior decorators to help make
 								your setup more fluid. Building a restaurant and bar should be
 								handled by a team that understand hospitality spatial design.
@@ -245,7 +245,7 @@ const Services = () => {
 							<h3 className="text-3xl md:text-4xl font-black text-white">
 								Menu Development
 							</h3>
-							<p className="text-white text-lg">
+							<p className="text-white text-lg lg:text-2xl">
 								Menu development is the key to the success for your restaurant
 								and bar. This is the main product for revenue generation. Food
 								and drinks have to be developed by professionals with recipes
@@ -302,7 +302,7 @@ const Services = () => {
 							<h3 className="text-3xl md:text-4xl font-black text-secondary-color">
 								Hiring and Training
 							</h3>
-							<p className="text-gray-600 text-lg">
+							<p className="text-gray-600 text-lg lg:text-2xl">
 								Blue Chip Hospitality has an experienced team that develops
 								hospitality concepts with emphasis on bar and restaurant. With
 								our service on developing concepts, we engage our clients to
@@ -395,7 +395,7 @@ const Services = () => {
 							<h3 className="text-3xl md:text-4xl font-black text-secondary-color">
 								Operations
 							</h3>
-							<p className="text-gray-600 text-lg">
+							<p className="text-gray-600 text-lg lg:text-2xl">
 								Blue Chip provides structures, tools, and systems to run the
 								entire operational line from Front-of-House to Back-of-House.
 								There are a lot of parts in motion when running a restaurant or

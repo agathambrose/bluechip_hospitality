@@ -15,7 +15,7 @@ const Footer = () => {
 						/>
 					</div>
 				</div>
-				<div className="Md:w-full md:flex md:flex-col justify-center">
+				<div className="md:w-4/5 md:flex md:flex-col justify-center">
 					<h4 className="md:text-4xl text-3xl font-black">Blue Chip</h4>
 					<h4 className="md:text-4xl text-3xl font-black">
 						Hospitality Limited
